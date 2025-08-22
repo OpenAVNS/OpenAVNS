@@ -3,13 +3,14 @@
 ## Purpose
 To develop an open-source, open-architecture auricular vagus nerve stimulator under a distributed development model.
  
-Auricular vagus nerve stimulation (aVNS) is a method of neuromodulation that uses electrical pulses applied to nerves near the ear to create a vagus nerve response. This response can lead to reduced sympathetic (fight or flight) and increased parasympathetic (relaxation / everything ok) tone. Adjusting vagal tone using aVNS has been explored by clinical researchers for a number of potential therapeutic applications, including for depression1, opioid withdraws2, chronic pain3, and gastrointestinal issues4. In addition, aVNS has been explored in wellness for applications such as stress reduction5. We believe an open-source, open-architecture aVNS system would be helpful for users, students, medical researchers, and community members around the world to explore aVNS and to learn more about developing neuromodulation devices under an open source model.
+Auricular vagus nerve stimulation (aVNS) is a method of neuromodulation that uses electrical pulses applied to nerves near the ear to create a vagus nerve response. This response can lead to reduced sympathetic (fight or flight) and increased parasympathetic (relaxation / everything ok) tone. Adjusting vagal tone using aVNS has been explored by clinical researchers for a number of potential therapeutic applications, including for depression [1], opioid withdraws [2], chronic pain [3], and gastrointestinal issues [4]. In addition, aVNS has been explored in wellness for applications such as stress reduction [5]. We believe an open-source, open-architecture aVNS system would be helpful for users, students, medical researchers, and community members around the world to explore aVNS and to learn more about developing neuromodulation devices under an open source model.
  
-1.        Tan, Chaoren et. al. 2023. https://pubmed.ncbi.nlm.nih.gov/37230264/
-2.        Tirado, Carlos F. et. al. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9385243/
-3.        Duff, Irina T. et. al.  2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11543973/
-4.        Veldman, Fleur et. al. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC11769675/
-5.        Sanches-Perez, Jesus et. al. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10512834/
+1. [Tan, Chaoren et. al. 2023](https://pubmed.ncbi.nlm.nih.gov/37230264/)  
+2. [Tirado, Carlos F. et. al. 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9385243/)  
+3. [Duff, Irina T. et. al. 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11543973/)  
+4. [Veldman, Fleur et. al. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11769675/)  
+5. [Sanches-Perez, Jesus et. al. 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10512834/)  
+
  
 ## Principles of OpenAVNS
 * _Openness_ – all source files, including code, PCB source files, CAD, and any documentation, available under permissive license
@@ -30,11 +31,11 @@ Auricular vagus nerve stimulation (aVNS) is a method of neuromodulation that use
 
 ## Project Goals / Timeline
 _2025_
-* _August_ set up project structure, onboard contributors, assign tasks, generate block diagrams of system
-* _September_ design and tape out first version of PCB, develop test firmware, generate proof of concept drawings / mock-ups for enclosure and user interface
-* _October_ test and document initial PCB and firmware for power draw, output integrity, and safety, develop initial app prototype, combine board needs and enclosure drawings to create CAD model
-* _November_ tape out second version of PCB designed for enclosure, conduct fit test, create alpha version of iOS and Android app
-* _December_ first system tests of prototype device (HW + FW + Enclosure + App)
+* _August:_ set up project structure, onboard contributors, assign tasks, generate block diagrams of system
+* _September:_ design and tape out first version of PCB, develop test firmware, generate proof of concept drawings / mock-ups for enclosure and user interface
+* _October:_ test and document initial PCB and firmware for power draw, output integrity, and safety, develop initial app prototype, combine board needs and enclosure drawings to create CAD model
+* _November:_ tape out second version of PCB designed for enclosure, conduct fit test, create alpha version of iOS and Android app
+* _December:_ first system tests of prototype device (HW + FW + Enclosure + App)
 
 ## Disclaimer
 The contents of this document, the OpenAVNS repository on GitHub, and any other documents or communication released by the OpenAVNS project (the “Materials”) are subject to revision. No representation or warranty, express or implied, is provided in relation to the accuracy, correctness, completeness, or reliability of the information, opinions, or conclusions expressed in this repository.
