@@ -10,11 +10,13 @@ Thank you for your interest in contributing to the OpenAVNS project (the “Proj
 
 “Parties” means the Providers, OpenAVNS, and any successors.
 
+
 2. License Grant
 
 You retain the copyright to your Contribution.
 
 You agree to license your Contribution in perpetuity under the same license(s) used by the Project: CC-BY 4.0 International
+
 
 3. Warranties
 
@@ -26,6 +28,7 @@ You have the right to license it under the Project’s license(s).
 
 Your Contribution does not knowingly infringe the rights of others.
 
+
 4. Medical Device Disclaimer
 
 You acknowledge that:
@@ -36,10 +39,12 @@ Contributions do not create a certified medical product.
 
 The Parties and Project maintainers are not liable for personal or clinical use of unvalidated prototypes.
 
+
 5. Community Standards
 
 You agree to contribute respectfully. This includes using respectful language, providing feedback in a kind and constructive manner, accepting feedback graciously, and avoiding harassment, insults, discrimination of any kind, or disruption of discussions. In addition, you agree to not dismiss safety concerns or encourage unsafe device usage. 
 Maintainers reserve the right to remove members of the community that violate these standards.
+
 
 6. Agreement Provisions
  
@@ -64,6 +69,7 @@ attempts to resolve all differences howsoever arising out of or in connection wi
  
 This agreement shall be governed by the laws of the United States of America Any
 dispute arising between the Parties in respect of this Agreement shall be subject to the exclusive jurisdiction of courts in Los Angeles, California.
+
 
 7. Acceptance
 
