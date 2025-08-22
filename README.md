@@ -22,9 +22,9 @@ Auricular vagus nerve stimulation (aVNS) is a method of neuromodulation that use
 ## Proposed user needs and design inputs
 | User Need | Design Input |
 |-----------|--------------|
-| The device shall apply neuromodulation to the auricular vagus branches at the tragus and cymba concha | Two biphasic outputs capable of current-driven stimulation |
-| The user shall easily activate, modify, and deactivate stimulation on the device | App with clear, intuitive controls allowing for control of stimulation parameters <br><br> Physical button on device to deactivate stimulation if needed |
-| The user shall comfortably wear the device | Weight less than 40g <br><br> Device fits behind ear <br><br> Contains features for holding device in place in the ear |
+| The device shall apply neuromodulation to the auricular vagus branches at the tragus and cymba concha | Device shall provide two independent biphasic current-controlled stimulation outputs |
+| The user shall easily activate, modify, and deactivate stimulation on the device | App shall allow adjustment of stimulation parameters (frequency, pulse width, amplitude) within specified ranges. <br><br> App shall allow initiating and stopping stimulation <br><br> Physical button on device to deactivate stimulation if needed <br><br> App shall be intuitive and easy to use |
+| The user shall comfortably wear the device | Weight less than 40g <br><br> Device fits behind ear <br><br> Remains securely in place for 30 minutes of typical non-athletic activity without discomfort |
 | The user shall apply neuromodulation typical of clinical studies reported in literature | Adjustable outputs between 1-50Hz, 100-500us pulse width, 0-2mA amplitude <br><br> Capable of outputting at maximum settings on one channel for a minimum of 30min |
 | The device is open and accessible to a large range of users in different situations | Rechargeable by USB-C <br><br> Uses commercial off the shelf replaceable electrodes <br><br> App available on iOS and Android platforms |
 | The device is safe to use | Device hardware prevents DC charge or amplitudes outside of the operating parameters from presenting at the electrode sites <br><br> Physical button on device to stop stimulation <br><br> Impedance measurement on output used to stop stimulation if electrodes are disconnected (short or open circuit) <br><br> Stimulation stops if wireless connection to app is interrupted <br><br> Firmware automatically stops stimulation after 30min regardless of other factors |
