@@ -2529,25 +2529,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
+			(property "Reference" "U10"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "TLV9062"
-				(at 0 -5.08 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "OpenAVNS:QFN50P200X150X40-10N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2623,7 +2621,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2641,7 +2639,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2659,7 +2657,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2691,7 +2689,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2709,7 +2707,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2727,7 +2725,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2747,7 +2745,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2765,7 +2763,43 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 7.62 0)
+					(length 3.81)
+					(name "nSHDN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 3.81 0)
+					(length 3.81)
+					(name "nSHDN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4097,6 +4131,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
@@ -5028,6 +5169,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Audio:AudioPlug3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioPlug3"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Plug*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioPlug3_0_0"
+				(text "R"
+					(at -2.54 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "AudioPlug3_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -1.27)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioPlug3_1_0"
+				(text "T"
+					(at -8.89 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "S"
+					(at 3.81 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "AudioPlug3_1_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 8.89 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -5.08 3.81) (xy -6.35 2.54) (xy -10.16 3.81) (xy -12.7 1.27) (xy -12.7 -1.27)
+						(xy -10.16 -3.81) (xy -6.35 -2.54) (xy -5.08 -3.81) (xy -3.81 -3.81) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 12.7 5.08)
+					(end 8.89 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5331,10 +5682,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -5343,19 +5691,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 0 3.81 0)
+				(at 3.175 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -5376,7 +5726,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5403,10 +5753,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.905 0)
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 					)
 					(stroke
 						(width 0)
@@ -5418,7 +5768,31 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -5441,19 +5815,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy 0 3.556) (xy 0 3.81)
 					)
 					(stroke
 						(width 0)
@@ -5463,8 +5825,44 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -5484,7 +5882,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 5.08 270)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -5494,6 +5892,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9674,6 +10108,582 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TLV9062_1"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U10"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV9062"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "OpenAVNS:QFN50P200X150X40-10N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* TSSOP*4.4x3mm*P0.65mm* VSSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV9062_1_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9062_1_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9062_1_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 7.62 0)
+					(length 3.81)
+					(name "nSHDN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 3.81 0)
+					(length 3.81)
+					(name "nSHDN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TLV9062_2"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U10"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV9062"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "OpenAVNS:QFN50P200X150X40-10N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* TSSOP*4.4x3mm*P0.65mm* VSSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV9062_2_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9062_2_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9062_2_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 7.62 0)
+					(length 3.81)
+					(name "nSHDN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 3.81 0)
+					(length 3.81)
+					(name "nSHDN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC847"
 			(pin_names
 				(offset 0)
@@ -11769,6 +12779,12 @@
 		(uuid "0712397d-e242-4d57-90b0-ed5b17324994")
 	)
 	(junction
+		(at 685.8 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07691d0a-7193-4df4-ab29-0433bd4c34fe")
+	)
+	(junction
 		(at 529.59 529.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11791,6 +12807,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14a21f4c-11d7-4aa3-a759-a8fce5126fb4")
+	)
+	(junction
+		(at 382.27 506.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14f31aa0-62f5-4f82-b419-09c571e84057")
 	)
 	(junction
 		(at 598.17 501.65)
@@ -11895,7 +12917,7 @@
 		(uuid "40450008-91cd-492d-a06d-b8e7cf78e412")
 	)
 	(junction
-		(at 318.77 415.29)
+		(at 316.23 424.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "431932de-2fbe-4d90-8058-18300a578131")
@@ -11917,6 +12939,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b6db03d-4d19-49cf-a6cb-c595e42cef35")
+	)
+	(junction
+		(at 146.05 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eee3c90-576b-4d45-b1d9-2548ba261378")
+	)
+	(junction
+		(at 648.97 383.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5639a7-68e1-4b9d-8087-5b9ca0fa820e")
+	)
+	(junction
+		(at 93.98 478.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a8dc92f-d53d-4bd9-97ad-430246adfd5b")
 	)
 	(junction
 		(at 414.02 111.76)
@@ -11943,6 +12983,12 @@
 		(uuid "620c5378-3b01-4360-9414-fc6fcc5f0beb")
 	)
 	(junction
+		(at 701.04 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657feafa-0f89-4ae1-9cfd-3eb004713dbd")
+	)
+	(junction
 		(at 681.99 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11967,16 +13013,40 @@
 		(uuid "6d4811d4-ef35-4a32-bbf5-bf00f3acee6c")
 	)
 	(junction
+		(at 648.97 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d4ec273-e5f4-4698-a20d-82bb8589b5c5")
+	)
+	(junction
+		(at 511.81 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d636551-b67e-4a06-8f89-3cd1a421c26d")
+	)
+	(junction
 		(at 494.03 527.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dd227bd-c862-446f-b1ef-d13618f540b7")
 	)
 	(junction
+		(at 332.74 407.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dd7da56-3c7b-4a06-8eba-56f960694466")
+	)
+	(junction
 		(at 544.83 516.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6de898bd-e5bb-487d-8fae-0efd69085356")
+	)
+	(junction
+		(at 71.12 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f6b0282-5c6a-4242-b09d-b9f39ae91118")
 	)
 	(junction
 		(at 88.9 335.28)
@@ -12033,6 +13103,12 @@
 		(uuid "80ed2d38-5ea0-4968-96f9-3ff37c784ba4")
 	)
 	(junction
+		(at 532.13 506.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8195050d-b406-4229-a391-b89a524de7df")
+	)
+	(junction
 		(at 681.99 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12075,10 +13151,28 @@
 		(uuid "8ef9da15-2e7b-4a40-866b-b555e9155ae3")
 	)
 	(junction
+		(at 598.17 511.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90dab9c8-ad80-4743-95ed-d1740639e801")
+	)
+	(junction
+		(at 490.22 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91346c0a-521c-4f58-8e6c-ae54013c3837")
+	)
+	(junction
 		(at 405.13 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9462a83b-e385-426b-a13f-fe6c8f189edd")
+	)
+	(junction
+		(at 382.27 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "946c3640-2225-4885-ae7a-0c01e0655465")
 	)
 	(junction
 		(at 146.05 76.2)
@@ -12141,7 +13235,7 @@
 		(uuid "a2926ca0-2ed1-4e6f-9fbe-a1b001fb0d1b")
 	)
 	(junction
-		(at 302.26 398.78)
+		(at 299.72 407.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a38e6339-d835-4221-9c50-cf6e77b045d8")
@@ -12165,10 +13259,28 @@
 		(uuid "a750b7df-1bc6-4590-946b-3ec1ccc9c4ed")
 	)
 	(junction
+		(at 598.17 491.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a79570de-9651-4e1f-91f0-7015039aec4b")
+	)
+	(junction
 		(at 96.52 471.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8d10612-338a-4b8a-bf95-26f2965c9fb3")
+	)
+	(junction
+		(at 82.55 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8e099a0-61ed-438b-a1a5-d46d61534178")
+	)
+	(junction
+		(at 497.84 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b00045ca-3821-480e-8813-57ee95652195")
 	)
 	(junction
 		(at 246.38 355.6)
@@ -12255,6 +13367,18 @@
 		(uuid "c1ba69c2-45f7-4123-afb0-ad2776d1d5b3")
 	)
 	(junction
+		(at 388.62 331.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c565a708-781b-463c-8eac-a179463c8dd2")
+	)
+	(junction
+		(at 57.15 530.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c72279bd-109e-4426-bc24-1256fc6c7734")
+	)
+	(junction
 		(at 100.33 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12265,6 +13389,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca7c87f7-c6ff-4b4d-a483-4d7cc432406a")
+	)
+	(junction
+		(at 389.89 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cabbbc1e-c735-414e-be21-895a8637f535")
 	)
 	(junction
 		(at 579.12 511.81)
@@ -12303,6 +13433,18 @@
 		(uuid "d75b4402-1cb8-4376-97d2-d1c5c3331043")
 	)
 	(junction
+		(at 67.31 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8651d01-3e46-447a-a9f3-bddae5285f1d")
+	)
+	(junction
+		(at 121.92 471.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8c22a57-5dce-41c6-827b-efcf3fd27ba7")
+	)
+	(junction
 		(at 280.67 528.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12313,6 +13455,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc8f6fbe-d409-4760-90bc-2dbde7e368d6")
+	)
+	(junction
+		(at 496.57 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e007918d-7ad4-479c-831c-e05c59f4cfa3")
 	)
 	(junction
 		(at 68.58 461.01)
@@ -12345,16 +13493,22 @@
 		(uuid "e6649820-87e7-468f-9b8b-9003a735d3b7")
 	)
 	(junction
-		(at 302.26 415.29)
+		(at 299.72 424.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e76d24fc-77f9-490e-bd53-44eb5d977400")
 	)
 	(junction
-		(at 318.77 398.78)
+		(at 316.23 407.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e82ae775-3830-4125-b42e-94f192e4e5a0")
+	)
+	(junction
+		(at 396.24 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e93fd9df-8281-4950-a24c-d8a83fd71276")
 	)
 	(junction
 		(at 699.77 170.18)
@@ -12379,6 +13533,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eea6598b-f1ea-4f3e-a83d-52acd461620e")
+	)
+	(junction
+		(at 354.33 478.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2f93c0d-64ae-446e-a160-2fd4f0d4661f")
 	)
 	(junction
 		(at 519.43 220.98)
@@ -12416,6 +13576,12 @@
 		(color 0 0 0 0)
 		(uuid "fd338e6e-071a-4a27-9923-e83c97e5b5be")
 	)
+	(junction
+		(at 327.66 497.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fed59885-bca9-473b-b71b-22ea840429b8")
+	)
 	(wire
 		(pts
 			(xy 598.17 499.11) (xy 598.17 501.65)
@@ -12428,7 +13594,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 530.86) (xy 73.66 530.86)
+			(xy 48.26 530.86) (xy 57.15 530.86)
 		)
 		(stroke
 			(width 0)
@@ -12498,6 +13664,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 207.01) (xy 113.03 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071fbd86-cfa8-45c4-a809-32ccfc679f02")
+	)
+	(wire
+		(pts
 			(xy 435.61 72.39) (xy 434.34 72.39)
 		)
 		(stroke
@@ -12548,6 +13724,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 228.6) (xy 354.33 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b71bd4b-880b-4c35-9abc-5487df986552")
+	)
+	(wire
+		(pts
 			(xy 445.77 173.99) (xy 445.77 170.18)
 		)
 		(stroke
@@ -12588,6 +13774,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 471.17) (xy 132.08 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c91f535-15df-481b-ae83-fddec99cdca7")
+	)
+	(wire
+		(pts
 			(xy 360.68 528.32) (xy 341.63 528.32)
 		)
 		(stroke
@@ -12618,7 +13814,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 411.48) (xy 288.29 415.29)
+			(xy 285.75 420.37) (xy 285.75 424.18)
 		)
 		(stroke
 			(width 0)
@@ -12788,7 +13984,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 234.95) (xy 146.05 240.03)
+			(xy 146.05 234.95) (xy 146.05 238.76)
 		)
 		(stroke
 			(width 0)
@@ -12878,7 +14074,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 207.01) (xy 113.03 207.01)
+			(xy 60.96 207.01) (xy 82.55 207.01)
 		)
 		(stroke
 			(width 0)
@@ -13028,7 +14224,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 95.25) (xy 363.22 95.25)
+			(xy 434.34 95.25) (xy 396.24 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13138,7 +14334,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 214.63) (xy 60.96 214.63)
+			(xy 74.93 214.63) (xy 71.12 214.63)
 		)
 		(stroke
 			(width 0)
@@ -13238,7 +14434,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 212.09) (xy 60.96 212.09)
+			(xy 72.39 212.09) (xy 67.31 212.09)
 		)
 		(stroke
 			(width 0)
@@ -13378,7 +14574,7 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 245.11) (xy 500.38 245.11)
+			(xy 483.87 245.11) (xy 490.22 245.11)
 		)
 		(stroke
 			(width 0)
@@ -13458,7 +14654,7 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 220.98) (xy 519.43 220.98)
+			(xy 483.87 220.98) (xy 496.57 220.98)
 		)
 		(stroke
 			(width 0)
@@ -13548,7 +14744,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 415.29) (xy 302.26 415.29)
+			(xy 285.75 424.18) (xy 299.72 424.18)
 		)
 		(stroke
 			(width 0)
@@ -13628,7 +14824,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 398.78) (xy 318.77 398.78)
+			(xy 299.72 407.67) (xy 316.23 407.67)
 		)
 		(stroke
 			(width 0)
@@ -13678,6 +14874,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 506.73) (xy 372.11 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a72437-2ede-450f-9bb3-08f40cb4c05a")
+	)
+	(wire
+		(pts
 			(xy 140.97 88.9) (xy 140.97 92.71)
 		)
 		(stroke
@@ -13688,7 +14894,7 @@
 	)
 	(wire
 		(pts
-			(xy 674.37 373.38) (xy 694.69 373.38)
+			(xy 674.37 373.38) (xy 685.8 373.38)
 		)
 		(stroke
 			(width 0)
@@ -13755,6 +14961,16 @@
 			(type default)
 		)
 		(uuid "44c867cf-d54e-43f0-af70-077065f742a9")
+	)
+	(wire
+		(pts
+			(xy 496.57 220.98) (xy 519.43 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455134c4-8a30-405d-acab-caa425825663")
 	)
 	(wire
 		(pts
@@ -13828,7 +15044,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 478.79) (xy 360.68 478.79)
+			(xy 351.79 478.79) (xy 354.33 478.79)
 		)
 		(stroke
 			(width 0)
@@ -13885,6 +15101,16 @@
 			(type default)
 		)
 		(uuid "4ca8af09-5886-40f7-86aa-fb6a5f1a321c")
+	)
+	(wire
+		(pts
+			(xy 146.05 238.76) (xy 146.05 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d824637-5ed8-48e7-949d-448a63d8bb54")
 	)
 	(wire
 		(pts
@@ -13948,7 +15174,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 398.78) (xy 302.26 398.78)
+			(xy 285.75 407.67) (xy 299.72 407.67)
 		)
 		(stroke
 			(width 0)
@@ -14278,6 +15504,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 497.84) (xy 327.66 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6383b332-f3e9-4d78-8073-990bb5b8adc8")
+	)
+	(wire
+		(pts
 			(xy 401.32 331.47) (xy 408.94 331.47)
 		)
 		(stroke
@@ -14328,6 +15564,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 506.73) (xy 541.02 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6819b1d0-495c-4721-a13d-93e4c00b83d1")
+	)
+	(wire
+		(pts
 			(xy 140.97 76.2) (xy 146.05 76.2)
 		)
 		(stroke
@@ -14368,7 +15614,7 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 228.6) (xy 354.33 228.6)
+			(xy 425.45 228.6) (xy 389.89 228.6)
 		)
 		(stroke
 			(width 0)
@@ -14538,6 +15784,16 @@
 	)
 	(wire
 		(pts
+			(xy 671.83 242.57) (xy 690.88 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f289b6-4fa1-4410-9b6c-1ff04d62fc7a")
+	)
+	(wire
+		(pts
 			(xy 494.03 515.62) (xy 494.03 514.35)
 		)
 		(stroke
@@ -14568,7 +15824,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 411.48) (xy 302.26 415.29)
+			(xy 299.72 420.37) (xy 299.72 424.18)
 		)
 		(stroke
 			(width 0)
@@ -14595,6 +15851,16 @@
 			(type default)
 		)
 		(uuid "73f4b6c7-e42b-4bb9-b452-d02a00b942dd")
+	)
+	(wire
+		(pts
+			(xy 675.64 240.03) (xy 690.88 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e2408d-4a55-4a50-9065-550ca078f249")
 	)
 	(wire
 		(pts
@@ -14638,7 +15904,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 506.73) (xy 372.11 506.73)
+			(xy 389.89 506.73) (xy 382.27 506.73)
 		)
 		(stroke
 			(width 0)
@@ -14718,6 +15984,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 478.79) (xy 360.68 478.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4e2a6c-f456-4672-b038-a0e9464f96fd")
+	)
+	(wire
+		(pts
 			(xy 179.07 143.51) (xy 194.31 143.51)
 		)
 		(stroke
@@ -14768,7 +16044,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 490.22) (xy 327.66 506.73)
+			(xy 327.66 490.22) (xy 327.66 497.84)
 		)
 		(stroke
 			(width 0)
@@ -14888,7 +16164,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 506.73) (xy 541.02 506.73)
+			(xy 529.59 506.73) (xy 532.13 506.73)
 		)
 		(stroke
 			(width 0)
@@ -14928,7 +16204,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 403.86) (xy 288.29 398.78)
+			(xy 285.75 412.75) (xy 285.75 407.67)
 		)
 		(stroke
 			(width 0)
@@ -14988,7 +16264,17 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 111.76) (xy 509.27 111.76)
+			(xy 675.64 237.49) (xy 690.88 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1823db-0dc1-44c1-8ddd-350c15472c31")
+	)
+	(wire
+		(pts
+			(xy 492.76 111.76) (xy 497.84 111.76)
 		)
 		(stroke
 			(width 0)
@@ -15198,7 +16484,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 87.63) (xy 528.32 87.63)
+			(xy 492.76 87.63) (xy 511.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -15418,7 +16704,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 415.29) (xy 318.77 415.29)
+			(xy 299.72 424.18) (xy 316.23 424.18)
 		)
 		(stroke
 			(width 0)
@@ -15468,7 +16754,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 478.79) (xy 96.52 478.79)
+			(xy 88.9 478.79) (xy 93.98 478.79)
 		)
 		(stroke
 			(width 0)
@@ -15828,13 +17114,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 471.17) (xy 132.08 471.17)
+			(xy 96.52 471.17) (xy 121.92 471.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b938de9c-8d1a-48da-9802-e2fe09385b05")
+	)
+	(wire
+		(pts
+			(xy 67.31 212.09) (xy 60.96 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97f97d6-7608-4171-ac70-97eacd94d393")
 	)
 	(wire
 		(pts
@@ -15988,6 +17284,16 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 111.76) (xy 509.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d393bf-bac4-4b0b-a9d4-731b0eeba65c")
+	)
+	(wire
+		(pts
 			(xy 130.81 73.66) (xy 130.81 92.71)
 		)
 		(stroke
@@ -16015,6 +17321,16 @@
 			(type default)
 		)
 		(uuid "c54d9fd4-ad15-4721-8185-e7823f64e1ec")
+	)
+	(wire
+		(pts
+			(xy 511.81 87.63) (xy 528.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c04bb3-2aad-443d-b944-d9e20b4a62a4")
 	)
 	(wire
 		(pts
@@ -16118,7 +17434,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 415.29) (xy 318.77 414.02)
+			(xy 316.23 424.18) (xy 316.23 422.91)
 		)
 		(stroke
 			(width 0)
@@ -16255,6 +17571,16 @@
 			(type default)
 		)
 		(uuid "d2fef009-c582-4f06-a01e-85c6cc0853bc")
+	)
+	(wire
+		(pts
+			(xy 71.12 214.63) (xy 60.96 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f84100-f199-4bf3-b39d-23d0bbab1ab6")
 	)
 	(wire
 		(pts
@@ -16408,6 +17734,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 478.79) (xy 96.52 478.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4a2165-a74d-47be-95e0-421ea8083264")
+	)
+	(wire
+		(pts
 			(xy 280.67 521.97) (xy 280.67 528.32)
 		)
 		(stroke
@@ -16525,6 +17861,16 @@
 			(type default)
 		)
 		(uuid "dfa19d17-7345-4667-9518-90aff4bed480")
+	)
+	(wire
+		(pts
+			(xy 490.22 245.11) (xy 500.38 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01e6386-80c3-4c31-9abc-45994a03719d")
 	)
 	(wire
 		(pts
@@ -16818,7 +18164,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 403.86) (xy 302.26 398.78)
+			(xy 299.72 412.75) (xy 299.72 407.67)
 		)
 		(stroke
 			(width 0)
@@ -16835,6 +18181,16 @@
 			(type default)
 		)
 		(uuid "f294c622-a2da-4d0d-ab5f-8ab33a4f7777")
+	)
+	(wire
+		(pts
+			(xy 332.74 407.67) (xy 332.74 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33504b1-c837-4992-954a-26e131972153")
 	)
 	(wire
 		(pts
@@ -16908,6 +18264,26 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 407.67) (xy 332.74 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7aa131e-fd16-410a-bdd4-b001d917741e")
+	)
+	(wire
+		(pts
+			(xy 396.24 95.25) (xy 363.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b927dc-cfbf-492c-a1f4-50336113449f")
+	)
+	(wire
+		(pts
 			(xy 77.47 524.51) (xy 73.66 524.51)
 		)
 		(stroke
@@ -16945,6 +18321,16 @@
 			(type default)
 		)
 		(uuid "f9ff6145-8cdd-4441-8861-b4101e559fef")
+	)
+	(wire
+		(pts
+			(xy 57.15 530.86) (xy 73.66 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1e0f65-0936-48e5-83f2-73460861e1c8")
 	)
 	(wire
 		(pts
@@ -17025,6 +18411,16 @@
 			(type default)
 		)
 		(uuid "ff5ebbdc-8b7c-4545-aeac-fc4f1d1669d3")
+	)
+	(wire
+		(pts
+			(xy 685.8 373.38) (xy 694.69 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc23177-bc30-4f15-a9d5-99236d0d1811")
 	)
 	(label "-50V"
 		(at 781.05 519.43 0)
@@ -17275,6 +18671,16 @@
 			(justify left bottom)
 		)
 		(uuid "33fd088c-9f16-48be-b528-69faacc222d7")
+	)
+	(label "Z_ON"
+		(at 323.85 407.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35077ce0-4b99-4171-a0a3-caa0088a6309")
 	)
 	(label "-50V"
 		(at 586.74 514.35 0)
@@ -17536,6 +18942,16 @@
 		)
 		(uuid "796e1a58-78dc-491e-8f99-a43c71edd269")
 	)
+	(label "E1"
+		(at 675.64 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aa96587-fb58-49d2-8d5e-c158c1cd9598")
+	)
 	(label "V_USB"
 		(at 91.44 327.66 0)
 		(effects
@@ -17636,6 +19052,16 @@
 		)
 		(uuid "94290453-7a02-4bdf-bd81-0b7aa2f529b4")
 	)
+	(label "Ground_Electrode"
+		(at 671.83 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9de4986d-7926-4c4d-b67f-3e836ad469f2")
+	)
 	(label "Z2"
 		(at 308.61 381 0)
 		(effects
@@ -17675,6 +19101,16 @@
 			(justify left bottom)
 		)
 		(uuid "a5da75a4-e397-4a17-bf8d-1ee0814f3cff")
+	)
+	(label "E2"
+		(at 675.64 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad1902e1-a6b4-4cf9-8ec8-5955ac0f8d63")
 	)
 	(label "C1_Anodic"
 		(at 547.37 67.31 0)
@@ -18123,7 +19559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0217cbc7-b546-4517-bead-7aa7aca0da65")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR043"
 			(at 500.38 238.76 0)
 			(effects
 				(font
@@ -18173,7 +19609,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -18189,7 +19625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02b53ec8-c474-4d9b-adda-4aaaaf82539a")
-		(property "Reference" "C16"
+		(property "Reference" "C20"
 			(at 695.96 165.0999 0)
 			(effects
 				(font
@@ -18243,7 +19679,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C16")
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 389.89 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0465b2f7-bf4c-404e-84e4-88df7cd98670")
+		(property "Reference" "TP16"
+			(at 392.43 224.0279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 392.43 226.5679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 394.97 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 389.89 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d08e5c1f-5bf1-4637-90f2-c3ddb4750f7b")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -18259,7 +19762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04c22314-ebd3-4ee2-849c-da1cf718920c")
-		(property "Reference" "C44"
+		(property "Reference" "C18"
 			(at 435.61 165.0999 0)
 			(effects
 				(font
@@ -18313,7 +19816,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C44")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -18329,7 +19832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0692a3c5-e464-410b-a4e4-5a1dfe3058e7")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR048"
 			(at 405.13 276.86 0)
 			(effects
 				(font
@@ -18379,7 +19882,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR044")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -18395,7 +19898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07e55dff-0356-459f-b1c3-bd3109b1dc39")
-		(property "Reference" "U17"
+		(property "Reference" "U16"
 			(at 514.35 496.57 0)
 			(effects
 				(font
@@ -18579,7 +20082,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "U17")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -18595,7 +20098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089b5613-9080-42a2-b75e-5f0e5504ca7a")
-		(property "Reference" "C48"
+		(property "Reference" "C28"
 			(at 721.36 368.2999 0)
 			(effects
 				(font
@@ -18649,7 +20152,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C48")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -18861,6 +20364,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 547.37 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b9851f1-a7f5-4f56-b127-1cf81fafb283")
+		(property "Reference" "TP10"
+			(at 549.91 196.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 549.91 198.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 552.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 552.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 547.37 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7969e1f-989c-45ee-96e8-a74253af9cd6")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SS3200")
 		(at 572.77 511.81 0)
 		(unit 1)
@@ -18870,7 +20440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b9e00c6-69d1-449e-8812-b2e0ce354547")
-		(property "Reference" "D14"
+		(property "Reference" "D11"
 			(at 572.4525 505.46 0)
 			(effects
 				(font
@@ -18922,7 +20492,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "D14")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -18938,7 +20508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0be35112-903d-448a-ae68-48e3d50686c4")
-		(property "Reference" "C18"
+		(property "Reference" "C22"
 			(at 408.94 181.6099 0)
 			(effects
 				(font
@@ -18992,7 +20562,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C18")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -19074,7 +20644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c8fa23b-1e42-4da6-875a-f2ff64ed7c97")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 699.77 176.53 0)
 			(effects
 				(font
@@ -19124,7 +20694,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -19220,7 +20790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d7747f3-07a5-4807-ab5e-430782c666bd")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 128.27 533.7175 90)
 			(effects
 				(font
@@ -19273,7 +20843,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -19475,7 +21045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ee49578-a9be-4de5-b541-4e1325c2cf06")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR027"
 			(at 576.58 168.91 0)
 			(effects
 				(font
@@ -19525,7 +21095,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR081")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -19688,7 +21258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "108bc8c0-50d9-4dca-9527-6f12d8014877")
-		(property "Reference" "C52"
+		(property "Reference" "C38"
 			(at 601.98 493.3949 0)
 			(effects
 				(font
@@ -19742,7 +21312,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C52")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -19816,6 +21386,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 648.97 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e96f5e-10a8-4587-b4df-46db3fda90e6")
+		(property "Reference" "TP27"
+			(at 651.51 378.9679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 651.51 381.5079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 654.05 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 654.05 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 648.97 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63e3ab6-d2ac-4c8e-933d-1536cd54c84f")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ22CA")
 		(at 706.12 132.08 90)
 		(unit 1)
@@ -19880,6 +21517,73 @@
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 511.81 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15c8241d-823f-4171-8f0f-719406b8c0e0")
+		(property "Reference" "TP2"
+			(at 514.35 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 514.35 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 516.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 516.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 511.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cd1846a-2026-4e1d-b53e-b2a293e5b327")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -19965,7 +21669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16be7520-6271-4a3f-a2b9-6dd41d39ef23")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 82.8675 516.89 0)
 			(effects
 				(font
@@ -20016,7 +21720,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -20638,7 +22342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d5026db-704f-49a3-b240-1b1bdcbb1887")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 664.21 397.51 0)
 			(effects
 				(font
@@ -20688,7 +22392,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -20829,6 +22533,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 527.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ebf9027-60be-4978-b9a9-e5c63ebbc901")
+		(property "Reference" "TP37"
+			(at 153.67 522.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 153.67 525.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 156.21 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06f4cb0a-d4c9-45c3-8332-1e6e59bf9482")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 478.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f24e22c-8368-48f9-9db0-eed2a722377a")
+		(property "Reference" "TP29"
+			(at 96.52 480.8219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.52 483.3619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 88.9 478.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 478.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 478.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d0bde25-a2da-4c45-be7c-6bc71b50f8f7")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:MCP73831-2-OT")
 		(at 73.66 538.48 0)
 		(unit 1)
@@ -20838,7 +22676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f4ac467-8385-43d6-bcef-446098edef96")
-		(property "Reference" "U18"
+		(property "Reference" "U17"
 			(at 75.8541 528.32 0)
 			(effects
 				(font
@@ -20902,7 +22740,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "U18")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -20996,7 +22834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20841346-30a5-4bae-bddc-ab49949689b0")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR068"
 			(at 382.27 403.86 0)
 			(effects
 				(font
@@ -21046,7 +22884,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -21062,7 +22900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20e0ddbb-5c1a-4c4b-86e8-18204921bbae")
-		(property "Reference" "R60"
+		(property "Reference" "R58"
 			(at 487.68 513.08 0)
 			(effects
 				(font
@@ -21115,7 +22953,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R60")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -21132,7 +22970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2199a52f-b05b-41fe-962e-58d1ad687c5e")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR040"
 			(at 337.82 231.14 0)
 			(effects
 				(font
@@ -21183,7 +23021,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR036")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -21197,9 +23035,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "21ff36f9-f790-4b25-8745-bf3d8f864643")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR066"
 			(at 335.28 398.78 0)
 			(effects
 				(font
@@ -21209,7 +23046,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.28 397.51 0)
+			(at 335.28 396.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21249,7 +23086,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR063")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -21389,6 +23226,73 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 497.84 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24529e19-7bf1-430e-8437-82086fcceeb8")
+		(property "Reference" "TP4"
+			(at 500.38 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 500.38 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 502.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 502.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 497.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94bdd0ac-6bed-406d-b6d6-669f0c7eae21")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -21539,7 +23443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b65e4f-8c9e-4fd8-9a4f-7c8c8aa41112")
-		(property "Reference" "C32"
+		(property "Reference" "C39"
 			(at 335.28 499.11 90)
 			(effects
 				(font
@@ -21590,7 +23494,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C32")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -21892,7 +23796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e2039f-5dc3-4883-9edb-dc93a2cdb508")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 88.9 341.63 0)
 			(effects
 				(font
@@ -21942,7 +23846,139 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR048")
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 327.66 497.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b333575-0c2d-4455-a1cb-219151a9e94f")
+		(property "Reference" "TP33"
+			(at 324.358 492.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 324.358 495.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 327.66 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 327.66 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b5e9622-a86f-488d-9e9a-f6722420385d")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 739.14 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b710ccd-6712-4bb0-b519-73d6c4adf63f")
+		(property "Reference" "TP7"
+			(at 741.68 157.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 741.68 160.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 744.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 744.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 739.14 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86548119-dfd6-47f3-b34e-68b0564e82b3")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -21958,7 +23994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bd58275-7346-4925-979d-c91be424f99d")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 86.36 365.76 0)
 			(effects
 				(font
@@ -22008,7 +24044,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR055")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 543.56 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f2f0bfe-5bba-4b7d-b273-fbebaefedf4c")
+		(property "Reference" "TP6"
+			(at 546.1 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 546.1 131.3179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 548.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 548.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 543.56 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "626c1a33-971a-4385-be6a-68dd12c635f4")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -22024,7 +24127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f991974-e7af-46ac-90f2-a1f61f2b717d")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 582.93 387.35 0)
 			(effects
 				(font
@@ -22074,7 +24177,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -22149,6 +24252,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fe2d370-61ed-4263-9cc2-1769e223f7ab")
+		(property "Reference" "TP13"
+			(at 73.66 210.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 73.66 212.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 76.2 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdeda976-8acf-4688-b2e2-89995ed3b3e2")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3.3V_4")
 		(lib_id "power:+3.3V")
 		(at 364.49 368.3 0)
@@ -22159,7 +24329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30a9cd09-0267-4a4a-9dc8-648d2b1fd38c")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 364.49 372.11 0)
 			(effects
 				(font
@@ -22209,7 +24379,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -22225,7 +24395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3308631d-618a-4bc8-a0fb-de1b44240ca9")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR075"
 			(at 562.61 508 0)
 			(effects
 				(font
@@ -22274,7 +24444,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR083")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -22290,7 +24460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3379450d-1d02-493d-aba7-c8d8d4da85d0")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 49.53 320.04 0)
 			(effects
 				(font
@@ -22411,7 +24581,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -22495,7 +24665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3623a74a-180b-47c1-80df-792737aa11c7")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 193.04 377.19 0)
 			(effects
 				(font
@@ -22545,7 +24715,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -22561,7 +24731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370f8f39-519d-4fef-9561-a484cfd7d2f8")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR073"
 			(at 76.2 492.76 0)
 			(effects
 				(font
@@ -22610,7 +24780,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR069")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -22762,7 +24932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38d020f7-9cbe-40da-bfcc-23e8bf2a37e0")
-		(property "Reference" "U16"
+		(property "Reference" "U15"
 			(at 309.88 496.57 0)
 			(effects
 				(font
@@ -22954,7 +25124,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "U16")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -23046,7 +25216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c596d92-f01f-40d9-b788-cf00aa35e527")
-		(property "Reference" "C40"
+		(property "Reference" "C49"
 			(at 102.87 538.48 0)
 			(effects
 				(font
@@ -23099,7 +25269,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C40")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -23181,7 +25351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb9f54e-bb2c-4c6e-99b5-86c785feeebd")
-		(property "Reference" "C53"
+		(property "Reference" "C41"
 			(at 601.98 506.0949 0)
 			(effects
 				(font
@@ -23235,42 +25405,40 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C53")
+					(reference "C41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "TLV9062_1")
 		(lib_id "Amplifier_Operational:TLV9062")
-		(at 321.31 406.4 0)
+		(at 318.77 415.29 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "40fe55fd-e31c-4fac-9153-feb4b11b276e")
-		(property "Reference" "U9"
-			(at 320.04 405.1299 0)
+		(property "Reference" "U10"
+			(at 318.77 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TLV9062"
-			(at 320.04 407.6699 0)
+			(at 318.77 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "OpenAVNS:QFN50P200X150X40-10N"
-			(at 321.31 406.4 0)
+			(at 318.77 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23279,7 +25447,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
-			(at 321.31 406.4 0)
+			(at 318.77 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23288,7 +25456,7 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
-			(at 321.31 406.4 0)
+			(at 318.77 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23296,34 +25464,40 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "8"
 			(uuid "b4f3ab4f-ff87-4f00-952f-2d0231a2f7f1")
 		)
 		(pin "5"
 			(uuid "08480f65-d3f9-4570-ac90-b2e32938e86a")
 		)
-		(pin "2"
+		(pin "10"
 			(uuid "9fd612ee-794c-4eee-8ad9-70ba3b11bb42")
 		)
-		(pin "3"
+		(pin "9"
 			(uuid "1f3d8e25-e125-46ee-89c7-0383a8e7a7c3")
 		)
 		(pin "6"
 			(uuid "5fd90b4e-221b-45ae-82ac-5bf7ad59a431")
 		)
-		(pin "8"
+		(pin "7"
 			(uuid "03e0e91c-49b1-4bd4-876d-b97db7f1f419")
 		)
-		(pin "7"
+		(pin "4"
 			(uuid "0059a391-5dc8-48c6-a02c-9ab587a55ebb")
 		)
-		(pin "4"
+		(pin "1"
 			(uuid "70a60136-ba86-4539-a24d-2fc562bf2e96")
+		)
+		(pin "2"
+			(uuid "1d76d9d2-590b-407b-9bd1-2ecd0fc1e889")
+		)
+		(pin "3"
+			(uuid "68ce94f6-70ef-42a5-9ff6-4a762c2d58bb")
 		)
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "U9")
+					(reference "U10")
 					(unit 3)
 				)
 			)
@@ -23475,7 +25649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42834af1-b48b-4772-b8c2-f7a7671d406d")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 146.05 246.38 0)
 			(effects
 				(font
@@ -23525,7 +25699,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -23743,7 +25917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "493c21bd-6b1a-40ef-9667-282b71d389cc")
-		(property "Reference" "C28"
+		(property "Reference" "C36"
 			(at 331.47 485.14 0)
 			(effects
 				(font
@@ -23796,7 +25970,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C28")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -24000,6 +26174,73 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 538.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ba751a7-0e01-454e-8617-2d3f58282db2")
+		(property "Reference" "TP40"
+			(at 200.66 533.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 200.66 536.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 203.2 538.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 538.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 538.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54f727b0-3cbd-49e1-9840-49782c841d6c")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP40")
 					(unit 1)
 				)
 			)
@@ -24241,7 +26482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe9f230-8073-4e12-81f9-258387af5885")
-		(property "Reference" "C36"
+		(property "Reference" "C45"
 			(at 393.7 515.62 0)
 			(effects
 				(font
@@ -24294,7 +26535,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C36")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -24310,7 +26551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ffc918e-f4de-475a-b65f-19414166e237")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR077"
 			(at 494.03 533.4 0)
 			(effects
 				(font
@@ -24359,7 +26600,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR073")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -24367,7 +26608,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 318.77 415.29 0)
+		(at 316.23 424.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24375,8 +26616,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "501b8293-52fe-441f-9df3-eb854e4d7869")
-		(property "Reference" "#PWR045"
-			(at 318.77 421.64 0)
+		(property "Reference" "#PWR071"
+			(at 316.23 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24385,7 +26626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 318.77 420.37 0)
+			(at 316.23 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24393,7 +26634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 415.29 0)
+			(at 316.23 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24402,7 +26643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 415.29 0)
+			(at 316.23 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24411,7 +26652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 318.77 415.29 0)
+			(at 316.23 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24425,7 +26666,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR045")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -24441,7 +26682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5066d31b-3a84-47de-a262-71ba84487a1c")
-		(property "Reference" "C23"
+		(property "Reference" "C31"
 			(at 53.34 467.36 0)
 			(effects
 				(font
@@ -24494,7 +26735,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C23")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -24511,7 +26752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524f1370-ca3f-4f39-8e1b-23dab83e88a7")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 664.21 369.57 0)
 			(effects
 				(font
@@ -24561,7 +26802,72 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR056")
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54a4c71f-137d-4fda-aad0-e0e31185270e")
+		(property "Reference" "TP17"
+			(at 142.748 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 142.748 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 146.05 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10426c7c-0bfc-454f-ae96-8e43ce0a9814")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -24578,7 +26884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55e4a47f-20a0-4760-a614-74b307982cec")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 604.52 372.11 0)
 			(effects
 				(font
@@ -24628,7 +26934,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -24697,6 +27003,73 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 396.24 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57510095-d825-46a6-943d-705d88c750fd")
+		(property "Reference" "TP3"
+			(at 398.78 90.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 398.78 93.2179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 401.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 396.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d501af3-5268-4c37-843d-256fc1111806")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -24779,7 +27152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f6c0d9-8733-45fa-813e-6c0ab2a04028")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR076"
 			(at 462.28 521.97 0)
 			(effects
 				(font
@@ -24828,7 +27201,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR072")
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 725.17 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "598baea7-c774-495e-97ec-44b6598d85cc")
+		(property "Reference" "TP9"
+			(at 727.71 189.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 727.71 192.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 730.25 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 730.25 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 725.17 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2b905f7-5fbd-4a6b-914a-b797edb291ae")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -25182,6 +27622,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 532.13 506.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d7447d9-b66d-49a0-bb45-0e5e0f8a645d")
+		(property "Reference" "TP35"
+			(at 534.67 502.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 534.67 504.6979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 537.21 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 537.21 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 532.13 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b36df71a-7d8b-4dbc-a05f-874f891a177e")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 133.35 38.1 180)
 		(unit 1)
@@ -25397,7 +27904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "647235b6-dd67-4e8a-8549-3c50858dcc41")
-		(property "Reference" "C41"
+		(property "Reference" "C19"
 			(at 449.58 165.0999 0)
 			(effects
 				(font
@@ -25451,7 +27958,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C41")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -25468,7 +27975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c2499e-f9b2-4ca9-b442-72b99a677b6a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 220.98 351.79 0)
 			(effects
 				(font
@@ -25518,7 +28025,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -25662,6 +28169,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TLV9062_2")
 		(lib_id "Amplifier_Operational:TLV9062")
 		(at 325.12 381 180)
 		(unit 2)
@@ -25671,7 +28179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a90c4f5-fd58-4f9d-a812-c7c71c791a95")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 325.12 370.84 0)
 			(effects
 				(font
@@ -25714,35 +28222,108 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "8"
 			(uuid "b4f3ab4f-ff87-4f00-952f-2d0231a2f7f2")
 		)
 		(pin "5"
 			(uuid "08480f65-d3f9-4570-ac90-b2e32938e86b")
 		)
-		(pin "2"
+		(pin "10"
 			(uuid "9fd612ee-794c-4eee-8ad9-70ba3b11bb43")
 		)
-		(pin "3"
+		(pin "9"
 			(uuid "1f3d8e25-e125-46ee-89c7-0383a8e7a7c4")
 		)
 		(pin "6"
 			(uuid "5fd90b4e-221b-45ae-82ac-5bf7ad59a432")
 		)
-		(pin "8"
+		(pin "7"
 			(uuid "03e0e91c-49b1-4bd4-876d-b97db7f1f41a")
 		)
-		(pin "7"
+		(pin "4"
 			(uuid "0059a391-5dc8-48c6-a02c-9ab587a55ebc")
 		)
-		(pin "4"
+		(pin "1"
 			(uuid "70a60136-ba86-4539-a24d-2fc562bf2e97")
+		)
+		(pin "2"
+			(uuid "47d766d4-2a0b-4d81-bb4b-e65828915c81")
+		)
+		(pin "3"
+			(uuid "0c6cd49f-fe8c-4d4b-ae92-5a38adf8e195")
 		)
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "U9")
+					(reference "U10")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 701.04 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc24470-7530-4503-8f06-c36f45abd829")
+		(property "Reference" "TP8"
+			(at 703.58 189.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 703.58 192.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 706.12 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 706.12 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 701.04 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "907c3eda-3eca-4183-807c-62b37a6b2d1a")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP8")
+					(unit 1)
 				)
 			)
 		)
@@ -25757,7 +28338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bf74f63-38ad-46f8-8f64-77a51ba5d14b")
-		(property "Reference" "R66"
+		(property "Reference" "R64"
 			(at 143.51 534.67 0)
 			(effects
 				(font
@@ -25810,7 +28391,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R66")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -25893,7 +28474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d2a5c05-ac1f-4729-bcb6-24ec6649fbf0")
-		(property "Reference" "C33"
+		(property "Reference" "C42"
 			(at 466.09 510.54 0)
 			(effects
 				(font
@@ -25946,7 +28527,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C33")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -25962,7 +28543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f41d864-c16a-43f8-8f4b-9b8f9396eb4f")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 97.79 341.63 0)
 			(effects
 				(font
@@ -26012,7 +28593,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -26028,7 +28609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f9994f0-5a9e-4a7d-ad7a-d68c7d163791")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR041"
 			(at 48.26 238.76 0)
 			(effects
 				(font
@@ -26078,7 +28659,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR037")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -26094,7 +28675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71585529-6d55-4024-a837-d973203992a6")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR062"
 			(at 709.93 379.73 0)
 			(effects
 				(font
@@ -26144,7 +28725,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR082")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -26353,35 +28934,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 100.33 163.83 90)
+		(lib_id "Connector:TestPoint")
+		(at 556.26 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "767767b2-28c4-4113-80ed-8fd4b2638042")
-		(property "Reference" "Y1"
-			(at 104.14 162.5599 90)
+		(uuid "75d45f5c-8cd7-451d-9c34-213faad7ee96")
+		(property "Reference" "TP1"
+			(at 558.8 62.7379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "32MHz"
-			(at 104.14 165.0999 90)
+		(property "Value" "TestPoint"
+			(at 558.8 65.2779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-			(at 100.33 163.83 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 561.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26390,7 +28971,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 163.83 0)
+			(at 561.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26398,8 +28979,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
-			(at 100.33 163.83 0)
+		(property "Description" "test point"
+			(at 556.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26408,15 +28989,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "85c53957-a564-4acb-bc1e-a85acec18dfc")
-		)
-		(pin "2"
-			(uuid "26e1f262-a162-41a6-b3a5-8e203420e58d")
+			(uuid "5c5fa68f-681c-4fb3-9359-9bd9386113cc")
 		)
 		(instances
-			(project ""
+			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "Y1")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -26432,7 +29010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77016fc6-03cc-40e6-b7bf-2c663ff9f817")
-		(property "Reference" "R58"
+		(property "Reference" "R56"
 			(at 543.56 509.27 0)
 			(effects
 				(font
@@ -26485,7 +29063,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R58")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -26501,7 +29079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77111880-b9e8-4ecb-ae2c-eef5f74837e2")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR032"
 			(at 462.28 180.34 0)
 			(effects
 				(font
@@ -26551,7 +29129,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR028")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -26797,6 +29375,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 534.67 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ec55ea3-2403-4bbe-83cb-8da3b810cc18")
+		(property "Reference" "TP19"
+			(at 537.21 262.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 537.21 264.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 539.75 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 539.75 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 534.67 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ce5bd6d-0b33-476d-af3b-1892280ebc83")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 360.68 490.22 0)
 		(unit 1)
@@ -26806,7 +29451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fdfb5c6-18a7-4ad6-b706-318fa79aae5c")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR074"
 			(at 360.68 496.57 0)
 			(effects
 				(font
@@ -26855,7 +29500,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR070")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -26941,7 +29586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ac4747-c751-4ce5-bf59-d73bbc90a7d5")
-		(property "Reference" "C17"
+		(property "Reference" "C21"
 			(at 85.09 161.29 90)
 			(effects
 				(font
@@ -26993,7 +29638,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C17")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -27009,7 +29654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "814ea618-aef3-4274-af19-b579ff5576d1")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR026"
 			(at 551.18 168.91 0)
 			(effects
 				(font
@@ -27059,7 +29704,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR080")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -27254,6 +29899,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 598.17 511.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82663871-2431-42ac-8ce5-92507843ef27")
+		(property "Reference" "TP36"
+			(at 600.71 513.8419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 600.71 516.3819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 593.09 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 593.09 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 598.17 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25998759-9449-4f7a-bf51-e00dd1693fe8")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
 		(at 455.93 245.11 0)
@@ -27264,7 +29976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82efeb05-2230-42ac-b027-0d1c08054f23")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR047"
 			(at 455.93 248.92 0)
 			(effects
 				(font
@@ -27314,7 +30026,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -27397,6 +30109,73 @@
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84628b0e-5909-4298-9ac7-c9a02aa6ef4a")
+		(property "Reference" "TP12"
+			(at 69.85 207.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 69.85 210.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 72.39 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf6a9acf-09d6-4ca8-a1e6-ea9e747e5db4")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -27547,7 +30326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87339b73-8215-4626-915d-ed0854fcf34e")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 721.36 154.94 90)
 			(effects
 				(font
@@ -27599,7 +30378,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -27607,7 +30386,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 302.26 407.67 0)
+		(at 299.72 416.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27615,8 +30394,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f138fe-bc57-4d48-be99-50d39c61839f")
-		(property "Reference" "C42"
-			(at 306.07 406.3999 0)
+		(property "Reference" "C30"
+			(at 303.53 415.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27625,7 +30404,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 306.07 408.9399 0)
+			(at 303.53 417.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27634,7 +30413,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 303.2252 411.48 0)
+			(at 300.6852 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27643,7 +30422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 302.26 407.67 0)
+			(at 299.72 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27652,7 +30431,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 302.26 407.67 0)
+			(at 299.72 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27669,7 +30448,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C42")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -27685,7 +30464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a718c10-78e6-4e11-be62-c29420ff5fbf")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR081"
 			(at 189.23 547.37 0)
 			(effects
 				(font
@@ -27734,7 +30513,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR076")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -27820,7 +30599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af6c8fe-0cff-4a0e-92df-5a2b9ad00db9")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR042"
 			(at 519.43 238.76 0)
 			(effects
 				(font
@@ -27870,7 +30649,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR038")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 598.17 491.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c4c6514-0769-451b-b4ce-f15f682f5498")
+		(property "Reference" "TP31"
+			(at 600.71 486.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 600.71 489.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 603.25 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 603.25 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 598.17 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f336ba5-9ce0-4231-84a5-fe82100d3b8e")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -27886,7 +30732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e4a2ce5-7c55-49de-9c71-161a529ee4af")
-		(property "Reference" "C26"
+		(property "Reference" "C34"
 			(at 135.89 478.79 0)
 			(effects
 				(font
@@ -27939,7 +30785,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C26")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -28021,7 +30867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90326405-1491-4685-9d98-be031f4e2302")
-		(property "Reference" "C34"
+		(property "Reference" "C43"
 			(at 375.92 511.81 0)
 			(effects
 				(font
@@ -28074,7 +30920,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C34")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -28091,7 +30937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9055b23f-45de-4cb0-bcdd-57f354ba0f64")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR038"
 			(at 344.17 224.79 0)
 			(effects
 				(font
@@ -28141,7 +30987,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR034")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -28157,7 +31003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91250c1e-3eef-41d7-a59c-986379477ad2")
-		(property "Reference" "C35"
+		(property "Reference" "C44"
 			(at 270.51 514.35 0)
 			(effects
 				(font
@@ -28210,7 +31056,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C35")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -28615,7 +31461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b57b70-90c0-48ee-ab6b-d7c12560f13a")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 344.17 242.57 0)
 			(effects
 				(font
@@ -28665,7 +31511,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -28751,7 +31597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9702f120-2459-4660-a865-961193aad548")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR039"
 			(at 453.39 227.33 0)
 			(effects
 				(font
@@ -28801,7 +31647,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -28885,7 +31731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "977c2a69-0d95-4dd9-9b04-a26f6d475c42")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR069"
 			(at 49.53 405.13 0)
 			(effects
 				(font
@@ -28935,7 +31781,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR066")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -29018,7 +31864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b59b0b4-114c-40bd-9bb9-2f4b6335ea52")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR033"
 			(at 416.56 180.34 0)
 			(effects
 				(font
@@ -29068,7 +31914,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -29085,7 +31931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc203ab-09c4-4188-a12c-9857b67bde55")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR046"
 			(at 405.13 248.92 0)
 			(effects
 				(font
@@ -29135,7 +31981,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -29167,7 +32013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2450AT43B100E:ANTENNA_2450AT43B100E"
+		(property "Footprint" "OpenAVNS:ANTENNA_2450AT43B100E"
 			(at 62.23 118.11 0)
 			(effects
 				(font
@@ -29318,6 +32164,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 100.33 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c86f41f-6330-4980-9957-da5bc93555a6")
+		(property "Reference" "Y1"
+			(at 113.03 158.8768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32MHz - X322532MOB4SI"
+			(at 113.03 161.4168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 100.33 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 100.33 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4577311d-9ffb-4601-a04f-c58a571c177e")
+		)
+		(pin "4"
+			(uuid "fd542609-03c4-4628-b2c1-bca9476d941f")
+		)
+		(pin "3"
+			(uuid "07c1cd04-297b-410e-95dd-4bdfb892ba3a")
+		)
+		(pin "2"
+			(uuid "ea46c770-9bd5-42dd-8d59-2c75b7f545fa")
+		)
+		(instances
+			(project ""
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 795.02 519.43 270)
 		(unit 1)
@@ -29327,7 +32247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca6846e-4efa-4aad-b6e5-082da21dae2f")
-		(property "Reference" "R62"
+		(property "Reference" "R60"
 			(at 795.02 513.08 90)
 			(effects
 				(font
@@ -29378,7 +32298,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R62")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -29464,7 +32384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d548a46-3a6c-41d0-8d3b-2a4b8013e2d4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 246.38 361.95 0)
 			(effects
 				(font
@@ -29514,7 +32434,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -29530,7 +32450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a198a042-1010-488a-b62c-12c79b655809")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 701.04 207.01 0)
 			(effects
 				(font
@@ -29580,7 +32500,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -29595,7 +32515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2cd80ae-da0f-4376-9e0d-1ce36f772cce")
-		(property "Reference" "C45"
+		(property "Reference" "C15"
 			(at 543.306 157.48 0)
 			(effects
 				(font
@@ -29648,7 +32568,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C45")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -29664,7 +32584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a30c3044-a0fe-4a51-8a6c-8b8286b8d560")
-		(property "Reference" "C21"
+		(property "Reference" "C25"
 			(at 250.19 350.5199 0)
 			(effects
 				(font
@@ -29718,7 +32638,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C21")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -29734,7 +32654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a40c3fce-813f-47da-8cf4-f9040f7c07c9")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 337.82 355.6 0)
 			(effects
 				(font
@@ -29784,7 +32704,74 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR051")
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 685.8 373.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4a04c9f-05d1-44d1-8844-bf9e5cbd268c")
+		(property "Reference" "TP24"
+			(at 688.34 368.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 688.34 371.3479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 690.88 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 690.88 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 685.8 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc0c3078-0d9f-484d-96d4-f55340bdc484")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -29800,7 +32787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5111b2e-4f1e-420f-aac2-9c71a65fb1b0")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR083"
 			(at 58.42 558.8 0)
 			(effects
 				(font
@@ -29849,7 +32836,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR079")
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 614.68 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a55a8660-fed1-4cd0-86aa-8c173eb21382")
+		(property "Reference" "TP25"
+			(at 617.22 372.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 617.22 375.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 619.76 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 619.76 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 614.68 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a535d18-9ce1-496a-8a47-97fb11d21639")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -30329,6 +33383,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 739.14 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a89a24db-0ee6-4437-972f-f8e1f52d92c9")
+		(property "Reference" "TP5"
+			(at 741.68 123.6979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 741.68 126.2379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 744.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 744.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 739.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5f64fd2-9c0d-4e42-a0e8-f5c140b775d9")
+		)
+		(instances
+			(project ""
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 494.03 519.43 0)
 		(unit 1)
@@ -30338,7 +33459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8c88e7a-5d4a-4724-8616-14494ab64f72")
-		(property "Reference" "C38"
+		(property "Reference" "C46"
 			(at 497.84 518.16 0)
 			(effects
 				(font
@@ -30391,7 +33512,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C38")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -30470,7 +33591,7 @@
 	(symbol
 		(lib_name "+3.3V_4")
 		(lib_id "power:+3.3V")
-		(at 318.77 398.78 0)
+		(at 316.23 407.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30478,8 +33599,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa86d814-b544-4c9e-8983-77bd2ef013c8")
-		(property "Reference" "#PWR046"
-			(at 318.77 402.59 0)
+		(property "Reference" "#PWR070"
+			(at 316.23 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30488,7 +33609,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 318.77 393.7 0)
+			(at 316.23 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30496,7 +33617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 398.78 0)
+			(at 316.23 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30505,7 +33626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 398.78 0)
+			(at 316.23 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30514,7 +33635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 318.77 398.78 0)
+			(at 316.23 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30528,7 +33649,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR046")
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 308.61 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abb3695b-481f-405e-9b56-853c5c09ad0e")
+		(property "Reference" "TP21"
+			(at 311.15 334.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 311.15 337.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 313.69 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 308.61 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c28dc50-298a-496e-bb90-ed62bcd83211")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -30544,7 +33732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae1973d1-33f9-4978-b55a-1a9b1db02b4a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 435.61 354.33 0)
 			(effects
 				(font
@@ -30595,7 +33783,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -30737,6 +33925,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 721.36 496.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af823e6f-8535-4cba-a167-864aaba4c65a")
+		(property "Reference" "TP32"
+			(at 723.9 491.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 723.9 494.5379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 726.44 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 726.44 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 721.36 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23ba6310-a9d5-4ada-9a89-856b9bd41a17")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 360.68 483.87 0)
 		(unit 1)
@@ -30746,7 +34001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af982548-8191-4c2c-9899-00dd246836b6")
-		(property "Reference" "C27"
+		(property "Reference" "C35"
 			(at 364.49 482.6 0)
 			(effects
 				(font
@@ -30799,7 +34054,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C27")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -30958,6 +34213,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioPlug3")
+		(at 706.12 240.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3fc603e-26fb-4dc8-bc42-2d26128ae8b4")
+		(property "Reference" "J2"
+			(at 720.09 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AudioPlug3"
+			(at 720.09 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+			(at 703.58 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 703.58 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 706.12 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "7807a583-8147-44b4-bcaf-577c0762b217")
+		)
+		(pin "R"
+			(uuid "4f3235e8-bcca-4552-b278-ca1fd4c236a3")
+		)
+		(pin "S"
+			(uuid "aab015f1-afaa-4412-a3da-07ccdcdaedef")
+		)
+		(instances
+			(project ""
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TLV9062")
 		(at 327.66 339.09 180)
 		(unit 1)
@@ -30967,7 +34295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4192a51-c4b7-4897-bd70-6e1f78907a3d")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 327.66 328.93 0)
 			(effects
 				(font
@@ -31010,34 +34338,40 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "10"
 			(uuid "b4f3ab4f-ff87-4f00-952f-2d0231a2f7f3")
 		)
 		(pin "5"
 			(uuid "08480f65-d3f9-4570-ac90-b2e32938e86c")
 		)
-		(pin "2"
+		(pin "9"
 			(uuid "9fd612ee-794c-4eee-8ad9-70ba3b11bb44")
 		)
-		(pin "3"
+		(pin "8"
 			(uuid "1f3d8e25-e125-46ee-89c7-0383a8e7a7c5")
 		)
 		(pin "6"
 			(uuid "5fd90b4e-221b-45ae-82ac-5bf7ad59a433")
 		)
-		(pin "8"
+		(pin "7"
 			(uuid "03e0e91c-49b1-4bd4-876d-b97db7f1f41b")
 		)
-		(pin "7"
+		(pin "4"
 			(uuid "0059a391-5dc8-48c6-a02c-9ab587a55ebd")
 		)
-		(pin "4"
+		(pin "1"
 			(uuid "70a60136-ba86-4539-a24d-2fc562bf2e98")
+		)
+		(pin "3"
+			(uuid "606564ed-bb94-4de8-954d-16b61928619e")
+		)
+		(pin "2"
+			(uuid "a016c6b7-9591-464a-af1a-84c88701cd82")
 		)
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -31053,7 +34387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4258774-582c-4f37-989e-63e9cd5179e2")
-		(property "Reference" "C19"
+		(property "Reference" "C23"
 			(at 707.39 186.69 90)
 			(effects
 				(font
@@ -31105,7 +34439,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C19")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -31342,7 +34676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6011b9f-3e50-46e4-a2a4-689df32bd25d")
-		(property "Reference" "C24"
+		(property "Reference" "C32"
 			(at 43.18 472.44 0)
 			(effects
 				(font
@@ -31395,7 +34729,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C24")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -31493,7 +34827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6788a0d-c7e7-4874-a5da-d2aabc7e1f49")
-		(property "Reference" "R54"
+		(property "Reference" "R53"
 			(at 795.02 482.6 90)
 			(effects
 				(font
@@ -31544,7 +34878,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R54")
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 382.27 373.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b7a1af-66d6-4558-8b17-4fdcc5850d59")
+		(property "Reference" "TP22"
+			(at 384.81 368.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 384.81 371.3479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 387.35 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 382.27 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe4e62a4-cfa7-4e71-bc70-3c017f728fb5")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -31696,7 +35097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8bdcdf7-3742-42d2-b071-3166515c2595")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 413.512 326.644 0)
 			(effects
 				(font
@@ -31769,7 +35170,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -31995,7 +35396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb46d49e-713a-45fa-a1e4-044bb3d4f4a7")
-		(property "Reference" "C50"
+		(property "Reference" "C40"
 			(at 582.93 506.73 0)
 			(effects
 				(font
@@ -32048,7 +35449,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C50")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -32064,7 +35465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c064c878-1f66-4bd8-98a3-3a306c7aafa6")
-		(property "Reference" "R59"
+		(property "Reference" "R57"
 			(at 363.22 511.81 0)
 			(effects
 				(font
@@ -32117,7 +35518,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R59")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -32271,7 +35672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2b25b14-96f3-4d51-9103-71a5ed1722c3")
-		(property "Reference" "R56"
+		(property "Reference" "R54"
 			(at 736.6 509.27 90)
 			(effects
 				(font
@@ -32322,7 +35723,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R56")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -32418,7 +35819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c493b1d6-6fd6-4f10-89e7-6f20b626cd82")
-		(property "Reference" "C25"
+		(property "Reference" "C33"
 			(at 120.65 478.79 0)
 			(effects
 				(font
@@ -32471,7 +35872,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C25")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -32487,7 +35888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6186507-37f4-48b8-9632-0036ca4085bd")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR067"
 			(at 429.26 396.24 0)
 			(effects
 				(font
@@ -32538,7 +35939,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -32554,7 +35955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c78fc33a-8ad2-450d-b57a-bdf1e87e70f0")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR080"
 			(at 140.97 546.1 0)
 			(effects
 				(font
@@ -32603,7 +36004,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR077")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -32620,7 +36021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca86af75-0ba7-47bf-8096-82d20437a593")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR034"
 			(at 48.26 203.2 0)
 			(effects
 				(font
@@ -32670,7 +36071,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -32753,7 +36154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb966d0e-1756-4582-acce-406423ad651c")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR079"
 			(at 316.23 538.48 0)
 			(effects
 				(font
@@ -32802,7 +36203,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR075")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -32885,6 +36286,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 496.57 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc148819-cd7a-4aad-91af-50886992f5c5")
+		(property "Reference" "TP15"
+			(at 499.11 216.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 499.11 218.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 501.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 501.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 496.57 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7206deea-6589-40da-90a5-dc1b565bf1e0")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc25f0d2-f72b-451f-853f-a54f9182d4b0")
+		(property "Reference" "TP14"
+			(at 72.39 212.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 72.39 215.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 74.93 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "312a9d69-c2e8-40fc-9bfd-cf88d5eb6b3f")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 132.08 471.17 0)
 		(unit 1)
@@ -32894,7 +36429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc30ebb0-8565-46a8-aa37-d01098d72756")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR072"
 			(at 132.08 474.98 0)
 			(effects
 				(font
@@ -32943,7 +36478,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR068")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -33029,7 +36564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd952c21-ad45-40b0-b877-1476f96ea319")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR078"
 			(at 544.83 535.94 0)
 			(effects
 				(font
@@ -33078,7 +36613,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR074")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -33164,7 +36699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce180df7-938d-49c7-8da5-a0892ced8c4f")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 370.84 330.2 0)
 			(effects
 				(font
@@ -33214,7 +36749,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -33230,7 +36765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce87e018-a058-4c71-8594-8940e46585d2")
-		(property "Reference" "R61"
+		(property "Reference" "R59"
 			(at 283.21 516.89 0)
 			(effects
 				(font
@@ -33283,7 +36818,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R61")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -33299,7 +36834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d051b804-d280-4665-add6-0b581a6fe516")
-		(property "Reference" "R68"
+		(property "Reference" "R66"
 			(at 60.96 544.83 0)
 			(effects
 				(font
@@ -33352,7 +36887,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R68")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -33368,7 +36903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d18e653e-fbb4-4d7c-9ddd-67ddee7b43f7")
-		(property "Reference" "R63"
+		(property "Reference" "R61"
 			(at 557.53 520.7 0)
 			(effects
 				(font
@@ -33421,7 +36956,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R63")
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 308.61 381 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1b55ca2-269c-411a-925f-32f130d5e0dc")
+		(property "Reference" "TP26"
+			(at 311.15 376.4279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 311.15 378.9679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 313.69 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 308.61 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15fd755b-1e12-4a3c-804f-1007e47db723")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -33436,7 +37038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d205c880-36da-4dfe-95c3-880821cf2af8")
-		(property "Reference" "C46"
+		(property "Reference" "C16"
 			(at 568.706 157.48 0)
 			(effects
 				(font
@@ -33489,7 +37091,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C46")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -33572,7 +37174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d40391b7-ce27-470d-81fd-323fe84f8069")
-		(property "Reference" "C39"
+		(property "Reference" "C48"
 			(at 52.07 537.21 0)
 			(effects
 				(font
@@ -33625,7 +37227,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C39")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -33641,7 +37243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d594f96d-2766-40c8-a13b-bcf3e131747b")
-		(property "Reference" "R67"
+		(property "Reference" "R65"
 			(at 127 539.75 0)
 			(effects
 				(font
@@ -33694,7 +37296,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R67")
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 354.33 478.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d64d7a37-59a8-4c78-8953-a7afaac92381")
+		(property "Reference" "TP30"
+			(at 356.87 474.2179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 356.87 476.7579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 359.41 478.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 478.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 354.33 478.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa60e079-5efc-43e3-83be-1416952061a4")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -33778,7 +37447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d65344e8-9dbb-43ca-a4ca-4fda851117ab")
-		(property "Reference" "T2"
+		(property "Reference" "T1"
 			(at 548.64 486.41 0)
 			(effects
 				(font
@@ -33920,7 +37589,7 @@
 		(instances
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "T2")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -34071,7 +37740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8d25e24-c380-463d-907e-271f51e281f6")
-		(property "Reference" "C31"
+		(property "Reference" "C37"
 			(at 582.93 494.03 0)
 			(effects
 				(font
@@ -34124,7 +37793,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C31")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -34140,7 +37809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daafc591-7ba0-437d-a308-775a209c0e47")
-		(property "Reference" "R57"
+		(property "Reference" "R55"
 			(at 795.02 497.84 90)
 			(effects
 				(font
@@ -34191,7 +37860,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R57")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -34259,6 +37928,73 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 490.22 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de19fe1e-62aa-4306-aced-24d3c195d34e")
+		(property "Reference" "TP18"
+			(at 492.76 240.5379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 492.76 243.0779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 495.3 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 495.3 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 490.22 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82e262fe-b363-47e1-8011-8666802eaa1e")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -34341,7 +38077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfcc36f5-3cde-46fe-827e-d1ae35d23b37")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 388.62 361.95 0)
 			(effects
 				(font
@@ -34391,7 +38127,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR054")
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 648.97 373.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfeca2a3-6208-4e3c-9b18-6e24ce9624e2")
+		(property "Reference" "TP23"
+			(at 651.51 368.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 651.51 371.3479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 654.05 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 654.05 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 648.97 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f7b0e75-d454-4d54-aca7-fdf6befc53cc")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -34474,7 +38277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e08fd1c4-270e-4b1d-a2ac-d3d5e6832eec")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 416.56 208.28 0)
 			(effects
 				(font
@@ -34524,7 +38327,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -34540,7 +38343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e11172fe-0f99-4c94-9fbc-cf9e6c238a4c")
-		(property "Reference" "C37"
+		(property "Reference" "C47"
 			(at 548.64 520.7 0)
 			(effects
 				(font
@@ -34593,7 +38396,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C37")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -34609,7 +38412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2017b59-2056-4f0a-a4ad-048a1d7c09a3")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 344.17 516.5724 90)
 			(effects
 				(font
@@ -34663,7 +38466,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -34804,6 +38607,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 471.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e342f53b-2c63-4ba0-8660-f233d40e9361")
+		(property "Reference" "TP28"
+			(at 124.46 466.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 469.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 127 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf876f41-f768-4a7c-9ab9-1d9c635d6222")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 360.68 523.24 180)
 		(unit 1)
@@ -34813,7 +38683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e447dd33-654c-4df3-a49c-0688f3c5c5f4")
-		(property "Reference" "R64"
+		(property "Reference" "R62"
 			(at 363.22 521.97 0)
 			(effects
 				(font
@@ -34866,7 +38736,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R64")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -34882,7 +38752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46bcb92-35e6-4376-b94b-1a52cbefbbff")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 716.28 208.28 0)
 			(effects
 				(font
@@ -34932,7 +38802,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -35024,7 +38894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7abf76c-687d-412f-af65-4a8a3a9ecdfb")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 220.98 386.08 0)
 			(effects
 				(font
@@ -35074,7 +38944,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -35151,7 +39021,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 288.29 407.67 0)
+		(at 285.75 416.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35159,8 +39029,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7ce1722-4178-4f45-a20e-a36ce3065498")
-		(property "Reference" "C43"
-			(at 292.1 406.3999 0)
+		(property "Reference" "C29"
+			(at 289.56 415.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35169,7 +39039,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 292.1 408.9399 0)
+			(at 289.56 417.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35178,7 +39048,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 289.2552 411.48 0)
+			(at 286.7152 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35187,7 +39057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 288.29 407.67 0)
+			(at 285.75 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35196,7 +39066,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 288.29 407.67 0)
+			(at 285.75 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35213,7 +39083,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C43")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -35308,6 +39178,140 @@
 			(project ""
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 530.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e94080d7-eeb1-4fdd-bcd7-23eba2d0f675")
+		(property "Reference" "TP39"
+			(at 59.69 526.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 59.69 528.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 62.23 530.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 530.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 530.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3530494-03f2-4ad6-a8a6-bf674017cc0b")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9b0e90a-6a74-4cec-a809-1037de04aaad")
+		(property "Reference" "#PWR029"
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea269454-b228-4b07-8493-084d3d84b49d")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -35464,6 +39468,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 382.27 506.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec423584-0e4e-4869-bf73-0dceb8d8a3ea")
+		(property "Reference" "TP34"
+			(at 384.81 502.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 384.81 504.6979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 387.35 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 382.27 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0771876-eb35-4120-8a1a-43c6a0d67499")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ22CA")
 		(at 706.12 166.37 90)
 		(unit 1)
@@ -35528,6 +39599,73 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edbd0804-ec65-43ed-824c-455d3c3d86d3")
+		(property "Reference" "#PWR028"
+			(at 88.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5adf1188-71e7-40e2-9a21-3a2c83598bf3")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -35674,6 +39812,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 388.62 331.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05bb471-e0d8-48f9-b12c-f3e53473a46e")
+		(property "Reference" "TP20"
+			(at 391.16 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 391.16 329.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 393.7 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 388.62 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c9f8963-b7c1-48c5-bfe1-b159648e0aa2")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 184.15 538.48 0)
 		(unit 1)
@@ -35683,7 +39888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0e046cb-7104-4c0c-91f5-f39bb285927d")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 184.785 533.4 0)
 			(effects
 				(font
@@ -35734,7 +39939,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "J3")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 529.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1828f31-f662-492e-8439-e13ff355e27c")
+		(property "Reference" "TP38"
+			(at 121.92 525.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 121.92 527.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 124.46 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5862dd3-e7fa-4bb2-90be-b435113ede7c")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -35836,7 +40108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f36b16ad-0618-4ee8-bd7f-f9febc42b6db")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR082"
 			(at 124.46 551.18 0)
 			(effects
 				(font
@@ -35885,7 +40157,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR078")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -36005,7 +40277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3d10653-6085-4a4b-9561-e5f70dab5688")
-		(property "Reference" "C20"
+		(property "Reference" "C24"
 			(at 394.97 250.1899 0)
 			(effects
 				(font
@@ -36059,7 +40331,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C20")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -36210,7 +40482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6cff7da-e7cd-4fcd-92e9-b59715f87f92")
-		(property "Reference" "C22"
+		(property "Reference" "C26"
 			(at 261.62 350.5199 0)
 			(effects
 				(font
@@ -36264,7 +40536,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C22")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -36420,7 +40692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9e2e7a5-fe45-4b3b-b7af-1cd9324be0c4")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR031"
 			(at 68.58 179.07 0)
 			(effects
 				(font
@@ -36470,7 +40742,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -36648,7 +40920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcdba1f8-b723-4a07-a1a9-86f852f83b72")
-		(property "Reference" "C47"
+		(property "Reference" "C27"
 			(at 707.39 368.2999 0)
 			(effects
 				(font
@@ -36702,7 +40974,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "C47")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -36718,7 +40990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd1de911-b6bb-4c62-a010-f7e4a2cf1aec")
-		(property "Reference" "R53"
+		(property "Reference" "R52"
 			(at 736.6 494.03 90)
 			(effects
 				(font
@@ -36769,7 +41041,7 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R53")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -36785,7 +41057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdceabe4-8d07-408f-a8db-08d6e6ca3add")
-		(property "Reference" "R65"
+		(property "Reference" "R63"
 			(at 93.98 527.05 0)
 			(effects
 				(font
@@ -36838,7 +41110,74 @@
 		(instances
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "R65")
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe69e77f-0744-441a-8eb2-3433b7988f7c")
+		(property "Reference" "TP11"
+			(at 85.09 202.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.09 204.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 87.63 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dedbb14-81a0-406c-a61b-0c587ec4469a")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
