@@ -21267,7 +21267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized_US"
+		(property "Value" "10uF, 100V electrolytic"
 			(at 601.98 495.9349 0)
 			(effects
 				(font
@@ -21276,7 +21276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 598.17 495.3 0)
 			(effects
 				(font
@@ -21294,7 +21294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol - JLCPCB #C2029"
 			(at 598.17 495.3 0)
 			(effects
 				(font
@@ -25360,7 +25360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized_US"
+		(property "Value" "10uF, 100V electrolytic"
 			(at 601.98 508.6349 0)
 			(effects
 				(font
@@ -25369,7 +25369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 598.17 508 0)
 			(effects
 				(font
@@ -25387,7 +25387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol - JLCPCB #C2029"
 			(at 598.17 508 0)
 			(effects
 				(font
