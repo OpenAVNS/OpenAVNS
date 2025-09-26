@@ -12869,6 +12869,12 @@
 		(uuid "25b8921c-3a3b-4859-877a-b40e93432070")
 	)
 	(junction
+		(at 71.12 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c30abce-d545-4b1e-a245-5f29f745bbc3")
+	)
+	(junction
 		(at 246.38 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13229,12 +13235,6 @@
 		(uuid "a1f2c037-0784-441d-99df-ee1274e3b487")
 	)
 	(junction
-		(at 83.82 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2926ca0-2ed1-4e6f-9fbe-a1b001fb0d1b")
-	)
-	(junction
 		(at 299.72 407.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13275,6 +13275,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8e099a0-61ed-438b-a1a5-d46d61534178")
+	)
+	(junction
+		(at 83.82 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a967527b-ef67-4993-bef8-bea8d2c0d305")
 	)
 	(junction
 		(at 497.84 111.76)
@@ -13834,6 +13840,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 118.11) (xy 58.42 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ded82cd-99c8-42bc-afe5-c3e9f34c17c5")
+	)
+	(wire
+		(pts
 			(xy 576.58 147.32) (xy 576.58 154.94)
 		)
 		(stroke
@@ -14081,6 +14097,16 @@
 			(type default)
 		)
 		(uuid "1ac83fb0-8f84-470a-acb9-4366af5d3410")
+	)
+	(wire
+		(pts
+			(xy 71.12 118.11) (xy 83.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0785e2-ead8-4f0f-89ac-3bde6e8d9ea6")
 	)
 	(wire
 		(pts
@@ -15034,16 +15060,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 118.11) (xy 83.82 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49286b9d-9ffd-4d88-a5f2-a94dceeafb06")
-	)
-	(wire
-		(pts
 			(xy 351.79 478.79) (xy 354.33 478.79)
 		)
 		(stroke
@@ -15631,16 +15647,6 @@
 			(type default)
 		)
 		(uuid "6bde733e-ade7-42c9-b12f-cfa8557084f1")
-	)
-	(wire
-		(pts
-			(xy 69.85 118.11) (xy 83.82 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c565879-d374-4e79-ad9f-dd026b2e7e3f")
 	)
 	(wire
 		(pts
@@ -16381,6 +16387,16 @@
 			(type default)
 		)
 		(uuid "91470e4a-580d-484d-aa34-99e1479f4871")
+	)
+	(wire
+		(pts
+			(xy 66.04 118.11) (xy 71.12 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916ad3f0-7cea-494a-99d8-3f5a45eb963a")
 	)
 	(wire
 		(pts
@@ -17674,6 +17690,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 118.11) (xy 91.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cfa4d0-4f28-440a-9d92-421cc07b3c6f")
+	)
+	(wire
+		(pts
 			(xy 544.83 516.89) (xy 544.83 518.16)
 		)
 		(stroke
@@ -18883,7 +18909,7 @@
 		(uuid "68c8a974-6d89-4810-8bbf-ef13c5222aca")
 	)
 	(label "RF_ANT"
-		(at 73.66 118.11 0)
+		(at 76.2 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26180,73 +26206,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 198.12 538.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ba751a7-0e01-454e-8617-2d3f58282db2")
-		(property "Reference" "TP40"
-			(at 200.66 533.9079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 200.66 536.4479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 203.2 538.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 538.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 198.12 538.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54f727b0-3cbd-49e1-9840-49782c841d6c")
-		)
-		(instances
-			(project "OpenAVNS KiCad Project"
-				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
-					(reference "TP40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 495.3 120.65 90)
 		(unit 1)
@@ -27481,6 +27440,76 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 71.12 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c6b781f-e72a-4aa4-a508-ca1423f60a6c")
+		(property "Reference" "L5"
+			(at 72.39 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8nH, 5%"
+			(at 72.39 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f1a1c9-7b41-4c4a-a7ee-c8a53bc29ca9")
+		)
+		(pin "2"
+			(uuid "e5b79958-03f0-496a-acd9-7655922861b2")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -31989,7 +32018,7 @@
 	)
 	(symbol
 		(lib_id "2450AT43B100E:2450AT43B100E")
-		(at 62.23 118.11 0)
+		(at 48.26 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31998,7 +32027,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c60f4f9-1f45-4a53-9351-5c0c305674aa")
 		(property "Reference" "AT1"
-			(at 62.865 107.95 0)
+			(at 48.895 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32006,7 +32035,7 @@
 			)
 		)
 		(property "Value" "2450AT43B100E"
-			(at 62.865 110.49 0)
+			(at 48.895 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32014,7 +32043,7 @@
 			)
 		)
 		(property "Footprint" "OpenAVNS:ANTENNA_2450AT43B100E"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32024,7 +32053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32033,7 +32062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32042,7 +32071,7 @@
 			)
 		)
 		(property "MF" "Johanson Technology"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32052,7 +32081,7 @@
 			)
 		)
 		(property "Description_1" "2.4GHz Bluetooth, Wi-Fi, WLAN Chip RF Antenna 2.4GHz ~ 2.5GHz 1.3dBi Solder Surface Mount"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32062,7 +32091,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32072,7 +32101,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32082,7 +32111,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/2450AT43B100E/Johanson/view-part/?ref=eda"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32092,7 +32121,7 @@
 			)
 		)
 		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32102,7 +32131,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32112,7 +32141,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2450AT43B100E/Johanson/view-part/?ref=snap"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32122,7 +32151,7 @@
 			)
 		)
 		(property "MP" "2450AT43B100E"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32132,7 +32161,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32142,7 +32171,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Johanson Technology Inc."
-			(at 62.23 118.11 0)
+			(at 48.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32369,6 +32398,72 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cd7f71d-b697-4942-a92e-d95544b01661")
+		(property "Reference" "#PWR084"
+			(at 71.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3e21f34-985c-4d0c-8cae-9fd3952102a2")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -35940,6 +36035,74 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 62.23 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c73f1635-987a-44ef-b9ff-d7812036b499")
+		(property "Reference" "L4"
+			(at 62.23 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7nH, 5%"
+			(at 62.23 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a6d1017-1473-4803-a002-f605806001c4")
+		)
+		(pin "2"
+			(uuid "4344fba7-35e4-4a37-a65a-c6518e74e8d5")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "L4")
 					(unit 1)
 				)
 			)
