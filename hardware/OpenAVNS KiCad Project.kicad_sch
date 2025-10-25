@@ -3774,6 +3774,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names
 				(offset 1.016)
@@ -13640,6 +13844,16 @@
 	)
 	(wire
 		(pts
+			(xy 795.02 149.86) (xy 808.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052f0708-0781-4616-8eac-0c1140c184ac")
+	)
+	(wire
+		(pts
 			(xy 372.11 518.16) (xy 360.68 518.16)
 		)
 		(stroke
@@ -13890,6 +14104,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 166.37) (xy 193.04 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1023317c-e376-4594-b975-ac1186a31665")
+	)
+	(wire
+		(pts
 			(xy 116.84 483.87) (xy 116.84 486.41)
 		)
 		(stroke
@@ -13957,6 +14181,16 @@
 			(type default)
 		)
 		(uuid "141d440f-04e1-489a-8553-4cfdfc829d6d")
+	)
+	(wire
+		(pts
+			(xy 795.02 152.4) (xy 808.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1451c061-6c77-44ed-a490-f3b4106ca2fe")
 	)
 	(wire
 		(pts
@@ -15790,6 +16024,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 562.61) (xy 114.3 567.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715779f8-afb1-4d2e-91ef-5adbdd75e192")
+	)
+	(wire
+		(pts
 			(xy 671.83 242.57) (xy 690.88 242.57)
 		)
 		(stroke
@@ -17290,6 +17534,16 @@
 	)
 	(wire
 		(pts
+			(xy 795.02 154.94) (xy 808.99 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b98107-3853-41ac-b83a-fbb65af5873b")
+	)
+	(wire
+		(pts
 			(xy 701.04 194.31) (xy 703.58 194.31)
 		)
 		(stroke
@@ -18280,6 +18534,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 551.18) (xy 114.3 554.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7413a71-bb2d-4691-af3e-a14b20616425")
+	)
+	(wire
+		(pts
 			(xy 367.03 341.63) (xy 388.62 341.63)
 		)
 		(stroke
@@ -18808,6 +19072,16 @@
 		)
 		(uuid "4854d93b-48cf-46f3-96c0-231923e1b5d2")
 	)
+	(label "Batt_Measure"
+		(at 186.69 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a8b7f9f-df16-43d5-8f26-7b7cb176f491")
+	)
 	(label "Z_ON"
 		(at 186.69 163.83 0)
 		(effects
@@ -19088,6 +19362,16 @@
 		)
 		(uuid "9de4986d-7926-4c4d-b67f-3e836ad469f2")
 	)
+	(label "E2"
+		(at 805.18 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e7d6996-a265-4a38-bf40-f91774e99086")
+	)
 	(label "Z2"
 		(at 308.61 381 0)
 		(effects
@@ -19117,6 +19401,16 @@
 			(justify left bottom)
 		)
 		(uuid "a39353af-055d-4553-a51f-16f5d146cdd3")
+	)
+	(label "Ground_Electrode"
+		(at 798.83 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a59be8cc-a576-4551-a951-46fddea9188d")
 	)
 	(label "Z2"
 		(at 196.85 107.95 0)
@@ -19187,6 +19481,16 @@
 			(justify left bottom)
 		)
 		(uuid "bb96db46-554b-4d9b-9204-5625db9db7ca")
+	)
+	(label "E1"
+		(at 805.18 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "beff6238-49a0-4499-ae4c-da22a44af8a8")
 	)
 	(label "-HV"
 		(at 502.92 293.37 0)
@@ -19408,6 +19712,16 @@
 		)
 		(uuid "f0b63e5d-184d-4fec-a406-897b84d3ce1d")
 	)
+	(label "VBAT"
+		(at 114.3 553.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3b214a4-484b-4f4f-9e9d-ace7d2268a33")
+	)
 	(label "C1_Cathodic"
 		(at 530.86 133.35 0)
 		(effects
@@ -19437,6 +19751,16 @@
 			(justify left bottom)
 		)
 		(uuid "fc75f756-d198-4695-896b-22ec6c53bd1b")
+	)
+	(label "Batt_Measure"
+		(at 114.3 565.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffcd4253-eac6-431b-b813-bae591427e60")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -23387,6 +23711,75 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 558.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "262ddd33-b974-4366-847b-fbf76fa2c188")
+		(property "Reference" "R67"
+			(at 116.84 557.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 116.84 560.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.284 558.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 558.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 558.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a7b9dd38-de9b-4cc5-9f10-d723f0e77c00")
+		)
+		(pin "1"
+			(uuid "e777bdd6-9a49-4c0d-a3ea-e60ac147f040")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -27988,6 +28381,75 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 571.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b47ae9-d25c-48a2-b2cd-3f4c073d1e10")
+		(property "Reference" "R68"
+			(at 116.84 570.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 116.84 572.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.284 571.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "689304ce-667e-4cba-8647-6c31c27f6d31")
+		)
+		(pin "1"
+			(uuid "e6633014-136a-4ca3-803c-de039d934330")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -37397,6 +37859,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 789.94 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d517eb8b-5e86-4447-9d4a-100999b9c71b")
+		(property "Reference" "J5"
+			(at 790.575 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 790.575 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 789.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 789.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 789.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1b0b634-6d4e-49f0-81bf-5ce3b29527aa")
+		)
+		(pin "3"
+			(uuid "2a224f88-e59f-4e66-b7ef-a89c1b4a594e")
+		)
+		(pin "1"
+			(uuid "abcc4e38-c58a-4d6a-a855-5e0acb8e4861")
+		)
+		(instances
+			(project ""
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 124.46 541.02 180)
 		(unit 1)
@@ -39247,6 +39780,71 @@
 			(project "OpenAVNS KiCad Project"
 				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 575.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e85cf9ce-69ea-44af-a61d-d744f2de58dc")
+		(property "Reference" "#PWR085"
+			(at 114.3 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5d64b50-1433-4ebd-ad10-f0c33e22aa27")
+		)
+		(instances
+			(project "OpenAVNS KiCad Project"
+				(path "/0fd1d23b-f00b-4e4e-bb2e-2a3aca0605f8"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
