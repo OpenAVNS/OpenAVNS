@@ -1256,6 +1256,17 @@
 			(uuid "ddfa6fed-1541-4a04-8aa3-f5ae99d91afc")
 		)
 		(embedded_fonts no)
+		(model "/Users/alexbaldwin/Desktop/Unnamed-Cube.step"
+			(offset
+				(xyz -6.5 -6.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
@@ -29660,7 +29671,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9f4ef111-0644-4b8a-bd60-4f5e3011fb90")
-		(at 219.71 36.83 90)
+		(at 198.12 66.04 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J5"
