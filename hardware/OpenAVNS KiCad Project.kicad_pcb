@@ -1256,7 +1256,7 @@
 			(uuid "ddfa6fed-1541-4a04-8aa3-f5ae99d91afc")
 		)
 		(embedded_fonts no)
-		(model "/Users/alexbaldwin/Desktop/Unnamed-Cube.step"
+		(model "${KIPRJMOD}/3D Models/Unnamed-Cube.step"
 			(offset
 				(xyz -6.5 -6.5 0)
 			)
@@ -3776,7 +3776,7 @@
 			(uuid "625637e8-955a-46c8-9215-0f4deb16634a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13943,7 +13943,7 @@
 			(uuid "bd354077-1dc9-4c22-9284-f63409f91e48")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_7.3x7.3_H3.5.step"
+		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL7030-332.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14314,15 +14314,15 @@
 			(uuid "6d9a1de0-5a75-46b0-a00d-3ac5d10d7504")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal.step"
+		(model "${KIPRJMOD}/3D Models/Same_Sky_SJ-3523-SMT-TR.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 6 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -18081,6 +18081,17 @@
 			(uuid "a498f6c7-37e6-4a39-909a-38a983f72cdb")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D Models/LT8304IS8E_PBF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
@@ -19263,6 +19274,17 @@
 			(uuid "6a584f0c-c705-4397-9c0c-35a69ead1c35")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D Models/TLV9062SIRUGR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
@@ -21659,7 +21681,7 @@
 			(uuid "8815119e-db74-406f-b499-31d67e605b25")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34480,6 +34502,17 @@
 			(uuid "5e0458da-258d-4156-b602-ea777ec26471")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D Models/2450AT43B100E.step"
+			(offset
+				(xyz 0 0 1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
@@ -39963,7 +39996,7 @@
 			(uuid "bbe803a8-5fc8-4cb7-a9ef-42893d59943d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_CK_JS102011SAQN.step"
+		(model "${KIPRJMOD}/3D Models/JS102011SAQN.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39971,7 +40004,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -46945,7 +46978,7 @@
 			(uuid "1a059f91-8a75-47ee-8489-fb29bdb44a51")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401548E4-2A.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401610E4-2A.step"
 			(offset
 				(xyz 0 0 0)
 			)
