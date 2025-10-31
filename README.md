@@ -37,6 +37,12 @@ _2025_
 * _November:_ tape out second version of PCB designed for enclosure, conduct fit test, create alpha version of iOS and Android app
 * _December:_ first system tests of prototype device (HW + FW + Enclosure + App)
 
+## Contributors
+Last updated 10/31/2025
+* [Alex Baldwin](https://www.linkedin.com/in/alexbbaldwin/) - Founder, PCB schematics and layout
+* [Amanda Cheung](https://www.linkedin.com/in/amandacheung8/) - Enclosure CAD
+
+
 ## Disclaimer
 The contents of this document, the OpenAVNS repository on GitHub, and any other documents or communication released by the OpenAVNS project (the “Materials”) are subject to revision. No representation or warranty, express or implied, is provided in relation to the accuracy, correctness, completeness, or reliability of the information, opinions, or conclusions expressed in this repository.
 
