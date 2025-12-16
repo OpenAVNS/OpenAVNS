@@ -26563,7 +26563,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100 Ohm"
 			(at 480.06 241.3 90)
 			(effects
 				(font
@@ -34037,7 +34037,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "150 Ohm"
 			(at 521.97 153.6699 0)
 			(effects
 				(font
@@ -41938,7 +41938,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 511.81 153.6699 0)
 			(effects
 				(font
