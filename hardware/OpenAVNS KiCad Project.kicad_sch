@@ -42062,7 +42062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:Texas_UQFN-8_1.5x1.5mm_P0.5mm"
 			(at 661.67 378.46 0)
 			(effects
 				(font
