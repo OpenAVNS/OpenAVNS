@@ -1,0 +1,79 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6*%
+%TF.CreationDate,2025-12-30T19:21:24-08:00*%
+%TF.ProjectId,Electrode_FlexPCB,456c6563-7472-46f6-9465-5f466c657850,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L1,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.6) date 2025-12-30 19:21:24*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+G04 Aperture macros list end*
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD10HorizOval,6.000000X-3.752876X-14.005924X3.752876X14.005924X0*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD11O,5.000000X19.000000*%
+%TD*%
+%TA.AperFunction,ViaPad*%
+%ADD12C,0.600000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD13C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,REF\u002A\u002A,1*%
+%TO.N,S*%
+X132080000Y-92710000D03*
+%TD*%
+D11*
+%TO.P,REF\u002A\u002A,1*%
+%TO.N,T*%
+X91440000Y-85090000D03*
+%TD*%
+D12*
+%TO.N,S*%
+X127000000Y-113030000D03*
+%TO.N,T*%
+X121920000Y-111760000D03*
+%TD*%
+D13*
+%TO.N,S*%
+X127000000Y-113030000D02*
+X132080000Y-92710000D01*
+%TO.N,T*%
+X106680000Y-57150000D02*
+X99060000Y-60960000D01*
+X121920000Y-58420000D02*
+X114300000Y-55880000D01*
+X121920000Y-111760000D02*
+X130810000Y-81280000D01*
+X128270000Y-67310000D02*
+X121920000Y-58420000D01*
+X114300000Y-55880000D02*
+X106680000Y-57150000D01*
+X93980000Y-71120000D02*
+X91440000Y-85090000D01*
+X95250000Y-66040000D02*
+X93980000Y-71120000D01*
+X130810000Y-81280000D02*
+X128270000Y-67310000D01*
+X99060000Y-60960000D02*
+X95250000Y-66040000D01*
+%TD*%
+M02*
