@@ -1,4 +1,4 @@
-26258366435621201
+26261900766929377
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59871,6 +59871,13 @@ LT8304 - 100VIN Micropower No-Opto Isolated Flyback Converter with 150V/2A Switc
 9
 9
 Footprints
+SOT65P210X110-6N
+
+
+0
+6
+6
+Footprints
 SOT95P280X145-5N
 
 
@@ -71826,6 +71833,13 @@ LT8304 - 100VIN Micropower No-Opto Isolated Flyback Converter with 150V/2A Switc
 0
 9
 9
+OpenAVNS
+SOT65P210X110-6N
+
+
+0
+6
+6
 OpenAVNS
 SOT95P280X145-5N
 
