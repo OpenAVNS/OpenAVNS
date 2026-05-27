@@ -71,6 +71,6 @@ This agreement shall be governed by the laws of the United States of America Any
 dispute arising between the Parties in respect of this Agreement shall be subject to the exclusive jurisdiction of courts in Los Angeles, California.
 
 
-7. Acceptance
+### 7. Acceptance
 
 By submitting a Contribution (via pull request, issue, or any other form), you agree to this Agreement.
