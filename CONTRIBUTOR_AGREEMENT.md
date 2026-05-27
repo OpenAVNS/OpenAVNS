@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to the OpenAVNS project (the “Project”). This Contributor Agreement (“Agreement”) describes the terms under which you make contributions to the Project. By submitting a contribution, you agree to the following:
 
-1. Definitions
+### 1. Definitions
 
 “Contribution” means any work of authorship, design, code, documentation, or other material you submit to the Project.
 
@@ -11,14 +11,14 @@ Thank you for your interest in contributing to the OpenAVNS project (the “Proj
 “Parties” means the Providers, OpenAVNS, and any successors.
 
 
-2. License Grant
+### 2. License Grant
 
 You retain the copyright to your Contribution.
 
 You agree to license your Contribution in perpetuity under the same license(s) used by the Project: CC-BY 4.0 International
 
 
-3. Warranties
+### 3. Warranties
 
 By submitting a Contribution, you represent that:
 
@@ -29,7 +29,7 @@ You have the right to license it under the Project’s license(s).
 Your Contribution does not knowingly infringe the rights of others.
 
 
-4. Medical Device Disclaimer
+### 4. Medical Device Disclaimer
 
 You acknowledge that:
 
@@ -40,13 +40,13 @@ Contributions do not create a certified medical product.
 The Parties and Project maintainers are not liable for personal or clinical use of unvalidated prototypes.
 
 
-5. Community Standards
+### 5. Community Standards
 
 You agree to contribute respectfully. This includes using respectful language, providing feedback in a kind and constructive manner, accepting feedback graciously, and avoiding harassment, insults, discrimination of any kind, or disruption of discussions. In addition, you agree to not dismiss safety concerns or encourage unsafe device usage. 
 Maintainers reserve the right to remove members of the community that violate these standards.
 
 
-6. Agreement Provisions
+### 6. Agreement Provisions
  
 This Agreement supersedes and is in lieu of any and all other arrangements between the Providers and OpenAVNS.
  
