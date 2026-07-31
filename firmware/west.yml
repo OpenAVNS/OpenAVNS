@@ -1,0 +1,37 @@
+# West manifest for the OpenAVNS bring-up firmware.
+#
+# This is a "T3 freestanding application" manifest: it lets a fresh
+# clone of this repo bootstrap its own nRF Connect SDK (NCS) workspace
+# via `west init` / `west update`, without vendoring the SDK itself.
+#
+# The `sdk-nrf` revision below is pinned to the exact commit this
+# firmware was last built and tested against (NCS main branch,
+# post-v2.9.0-rc1, Zephyr 4.3.99). It is NOT an official numbered NCS
+# release — it's a development snapshot. Pinning to a commit (rather
+# than a branch) guarantees `west update` reproduces this exact
+# environment; it does mean this manifest won't automatically track
+# newer NCS releases. Bump the revision below and re-test if you want
+# to move to a stable NCS release tag instead.
+#
+# Usage (from an empty directory):
+#   west init -m <this-repo-url> --mf firmware/west.yml --mr main workspace
+#   cd workspace
+#   west update
+#   west build -b nrf52840dk/nrf52840 openavns/firmware
+#
+# See firmware/README.md for full setup and flashing instructions.
+
+manifest:
+  remotes:
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+
+  projects:
+    - name: sdk-nrf
+      remote: ncs
+      repo-path: sdk-nrf
+      revision: d67c2b03ae7947a370d7b580d5fbba93f31de428
+      import: true
+
+  self:
+    path: openavns

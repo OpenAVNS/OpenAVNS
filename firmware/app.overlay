@@ -1,0 +1,38 @@
+/* USB CDC-ACM: expose a virtual UART over the USB-C connector */
+/ {
+	chosen {
+		zephyr,shell-uart = &cdc_acm_uart0;
+	};
+};
+
+&zephyr_udc0 {
+	cdc_acm_uart0: cdc_acm_uart0 {
+		compatible = "zephyr,cdc-acm-uart";
+	};
+};
+
+/* Disable QSPI (no onboard flash on custom board) to free P0.17-P0.23 */
+&qspi {
+	status = "disabled";
+};
+
+&gpio0 {
+	gpio-reserved-ranges = <0 2>, <6 1>, <8 3>;
+};
+
+&pinctrl {
+	i2c0_default: i2c0_default {
+		group1 {
+			psels = <NRF_PSEL(TWIM_SDA, 0, 13)>,
+			        <NRF_PSEL(TWIM_SCL, 0, 14)>;
+		};
+	};
+
+	i2c0_sleep: i2c0_sleep {
+		group1 {
+			psels = <NRF_PSEL(TWIM_SDA, 0, 13)>,
+			        <NRF_PSEL(TWIM_SCL, 0, 14)>;
+			low-power-enable;
+		};
+	};
+};
