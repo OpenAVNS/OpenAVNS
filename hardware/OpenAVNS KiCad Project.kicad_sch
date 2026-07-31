@@ -20300,7 +20300,7 @@
 		)
 		(uuid "0b5549b7-08c0-4bea-b1d3-e36e21a7f8a3")
 	)
-	(label "Z_Out"
+	(label "Z_OUT"
 		(at 180.34 105.41 0)
 		(effects
 			(font
