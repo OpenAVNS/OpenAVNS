@@ -1,0 +1,35 @@
+# --- OS junk ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Claude Code ---
+# Project-local permissions/state (machine-specific, not meant to be shared)
+.claude/settings.local.json
+
+# --- KiCad ---
+# Local autosave/undo history repo (KiCad's own local-history feature) and
+# timestamped backup zips it creates on every save. Both are per-machine
+# scratch data, not design source — see hardware/.history/README.txt.
+hardware/.history/
+*-backups/
+
+# KiCad lock files and autosave artifacts
+*.lck
+_autosave-*
+*-save.pro
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache.lck
